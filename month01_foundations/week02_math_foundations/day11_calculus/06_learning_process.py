@@ -21,6 +21,4 @@ for epoch in range(5):
 
     loss -= 5
 
-    print(
-        f"Epoch {epoch+1}: Loss={loss}"
-    )
+    print( f"Epoch {epoch+1}: Loss={loss}" )
