@@ -1,0 +1,7 @@
+pip install pandas
+pip install scikit-learn
+pip install joblib
+
+pandas
+scikit-learn
+joblib
