@@ -1,0 +1,1 @@
+print("Neural Networks are inspired by the human brain.")
