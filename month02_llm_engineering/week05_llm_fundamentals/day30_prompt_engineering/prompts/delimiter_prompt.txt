@@ -1,0 +1,15 @@
+You are a professional technical writer.
+
+Task:
+Summarize the text provided between the delimiters.
+
+Requirements:
+- Maximum 100 words
+- Use simple language
+- Return Markdown bullet points
+
+Text:
+
+"""
+Artificial Intelligence (AI) is transforming industries by enabling machines to perform tasks that traditionally required human intelligence. AI is widely used in healthcare, finance, education, transportation, and software development. Modern AI systems often use Machine Learning and Deep Learning techniques to analyze large amounts of data and make predictions.
+"""
