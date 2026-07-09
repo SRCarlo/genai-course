@@ -1,0 +1,16 @@
+You are a {role}.
+
+Task:
+{task}
+
+Context:
+{context}
+
+Instructions:
+{instructions}
+
+Constraints:
+{constraints}
+
+Output Format:
+{output_format}
