@@ -1,0 +1,15 @@
+You are an AI Assistant.
+
+Explain Artificial Intelligence.
+
+Return the response strictly in the following JSON format.
+
+{
+    "definition": "",
+    "advantages": [],
+    "disadvantages": [],
+    "applications": [],
+    "summary": ""
+}
+
+Do not include Markdown or additional text outside the JSON object.
