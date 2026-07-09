@@ -1,0 +1,10 @@
+You are an AI Assistant.
+
+Task:
+Translate the following sentence into French.
+
+Input:
+Hello, how are you?
+
+Output:
+Return only the translated sentence.

@@ -1,0 +1,15 @@
+You are an expert mathematics tutor.
+
+Solve the following problem.
+
+Problem:
+
+A train travels 60 km in 45 minutes.
+
+Calculate its average speed in km/h.
+
+Instructions:
+
+- Break the solution into logical steps.
+- Show calculations.
+- Provide the final answer clearly.

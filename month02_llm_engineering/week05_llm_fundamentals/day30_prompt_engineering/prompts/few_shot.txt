@@ -1,0 +1,30 @@
+You are an AI Assistant.
+
+Classify each item.
+
+Examples
+
+Input:
+Dog
+
+Output:
+Animal
+
+Input:
+Rose
+
+Output:
+Flower
+
+Input:
+Python
+
+Output:
+Programming Language
+
+Now classify.
+
+Input:
+Laptop
+
+Output:
