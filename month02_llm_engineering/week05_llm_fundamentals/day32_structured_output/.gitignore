@@ -1,0 +1,40 @@
+# Environment variables
+.env
+
+# Node modules
+node_modules/
+
+
+package-lock.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python environment files
+*.env
+
+# Generated files
+resume.json
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
