@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "text": "Node.js is used for backend development."
+    },
+    {
+        "id": 2,
+        "text": "Python is widely used in Artificial Intelligence."
+    },
+    {
+        "id": 3,
+        "text": "React is used to build user interfaces."
+    },
+    {
+        "id": 4,
+        "text": "MongoDB is a NoSQL database."
+    }
+]
