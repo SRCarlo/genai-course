@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "text": "Node.js is used for backend development."
+    },
+    {
+        "id": 2,
+        "text": "Python is widely used in Artificial Intelligence."
+    },
+    {
+        "id": 3,
+        "text": "React is a frontend JavaScript library."
+    },
+    {
+        "id": 4,
+        "text": "Express.js is a backend framework."
+    }
+]
