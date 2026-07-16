@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "text": "Node.js is an open-source JavaScript runtime environment.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.320Z",
+      "characters": 57
+    }
+  },
+  {
+    "id": 2,
+    "text": "It uses Google's V8 JavaScript Engine.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 38
+    }
+  },
+  {
+    "id": 3,
+    "text": "Express.js is one of the most popular Node.js frameworks.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 57
+    }
+  },
+  {
+    "id": 4,
+    "text": "MongoDB is frequently used with Express.js applications.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 56
+    }
+  },
+  {
+    "id": 5,
+    "text": "React is commonly used as the frontend library.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 47
+    }
+  },
+  {
+    "id": 6,
+    "text": "REST APIs are built using Express.js.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 37
+    }
+  },
+  {
+    "id": 7,
+    "text": "Node.js is widely used for scalable backend applications.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 57
+    }
+  },
+  {
+    "id": 8,
+    "text": "Chunking improves document retrieval in RAG systems.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 52
+    }
+  },
+  {
+    "id": 9,
+    "text": "Recursive chunking is the most common production strategy.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 58
+    }
+  },
+  {
+    "id": 10,
+    "text": "Sliding window chunking preserves context using overlap.",
+    "metadata": {
+      "type": "recursive",
+      "level": "paragraph",
+      "source": "document.txt",
+      "createdAt": "2026-07-15T16:44:37.321Z",
+      "characters": 56
+    }
+  }
+]
