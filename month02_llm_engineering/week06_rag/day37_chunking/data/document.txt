@@ -1,0 +1,19 @@
+Node.js is an open-source JavaScript runtime environment.
+
+It uses Google's V8 JavaScript Engine.
+
+Express.js is one of the most popular Node.js frameworks.
+
+MongoDB is frequently used with Express.js applications.
+
+React is commonly used as the frontend library.
+
+REST APIs are built using Express.js.
+
+Node.js is widely used for scalable backend applications.
+
+Chunking improves document retrieval in RAG systems.
+
+Recursive chunking is the most common production strategy.
+
+Sliding window chunking preserves context using overlap.
