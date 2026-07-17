@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "text": "Node.js is a JavaScript runtime built on Chrome V8.",
+    "embedding": [0.91, 0.83, 0.77],
+    "keywords": ["node", "javascript", "runtime"],
+    "metadata": {
+      "category": "backend",
+      "source": "Node Docs"
+    }
+  },
+  {
+    "id": 2,
+    "text": "Express.js is a backend web framework for Node.js.",
+    "embedding": [0.95, 0.88, 0.81],
+    "keywords": ["express", "framework", "backend"],
+    "metadata": {
+      "category": "framework",
+      "source": "Express Docs"
+    }
+  },
+  {
+    "id": 3,
+    "text": "MongoDB is a NoSQL database.",
+    "embedding": [0.78, 0.81, 0.75],
+    "keywords": ["mongodb", "database", "nosql"],
+    "metadata": {
+      "category": "database",
+      "source": "Mongo Docs"
+    }
+  },
+  {
+    "id": 4,
+    "text": "React is a frontend JavaScript library.",
+    "embedding": [0.32, 0.44, 0.29],
+    "keywords": ["react", "frontend"],
+    "metadata": {
+      "category": "frontend",
+      "source": "React Docs"
+    }
+  }
+]
