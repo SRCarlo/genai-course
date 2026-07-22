@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "text": "Node.js is an open-source JavaScript runtime built on Chrome's V8 engine."
+    },
+    {
+        "id": 2,
+        "text": "Express.js is a lightweight web framework for Node.js."
+    },
+    {
+        "id": 3,
+        "text": "LangChain is a framework for building LLM applications."
+    },
+    {
+        "id": 4,
+        "text": "RAG stands for Retrieval Augmented Generation."
+    },
+    {
+        "id": 5,
+        "text": "Groq provides high-speed inference for open-source language models."
+    }
+]
