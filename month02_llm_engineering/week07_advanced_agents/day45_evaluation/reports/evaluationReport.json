@@ -1,0 +1,38 @@
+{
+  "accuracy": 80,
+  "passed": 4,
+  "failed": 1,
+  "hallucinations": 1,
+  "results": [
+    {
+      "question": "Capital of India",
+      "expected": "New Delhi",
+      "actual": "New Delhi",
+      "passed": true
+    },
+    {
+      "question": "Capital of France",
+      "expected": "Paris",
+      "actual": "Paris",
+      "passed": true
+    },
+    {
+      "question": "Largest Ocean",
+      "expected": "Pacific Ocean",
+      "actual": "Atlantic Ocean",
+      "passed": false
+    },
+    {
+      "question": "2 + 2",
+      "expected": "4",
+      "actual": "4",
+      "passed": true
+    },
+    {
+      "question": "Creator of Node.js",
+      "expected": "Ryan Dahl",
+      "actual": "Ryan Dahl",
+      "passed": true
+    }
+  ]
+}
