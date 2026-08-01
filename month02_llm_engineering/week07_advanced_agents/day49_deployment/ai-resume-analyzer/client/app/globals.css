@@ -1,0 +1,353 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  background: #f8fafc;
+
+  color: #0f172a;
+
+  font-family: Inter, Arial, sans-serif;
+}
+
+/* AUTH */
+
+.auth-page {
+  min-height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  background: #f8fafc;
+}
+
+.auth-card {
+  width: 380px;
+
+  background: white;
+
+  padding: 35px;
+
+  border-radius: 16px;
+
+  border: 1px solid #e5e7eb;
+
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.auth-card h1 {
+  text-align: center;
+
+  font-size: 28px;
+
+  margin-bottom: 8px;
+}
+
+.auth-card p {
+  text-align: center;
+
+  color: #64748b;
+}
+
+.input {
+  width: 100%;
+
+  padding: 12px 14px;
+
+  margin-top: 15px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 8px;
+
+  font-size: 15px;
+}
+
+.input:focus {
+  outline: none;
+
+  border-color: #2563eb;
+}
+
+.btn {
+  width: 100%;
+
+  margin-top: 20px;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #2563eb;
+
+  color: white;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #1d4ed8;
+}
+
+/* DASHBOARD */
+
+.dashboard-layout {
+  display: flex;
+
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+
+  background: white;
+
+  border-right: 1px solid #e5e7eb;
+
+  padding: 25px;
+}
+
+.sidebar h2 {
+  color: #2563eb;
+
+  margin-bottom: 35px;
+}
+
+.sidebar a {
+  display: block;
+
+  padding: 10px;
+
+  margin-bottom: 8px;
+
+  color: #475569;
+
+  text-decoration: none;
+
+  border-radius: 8px;
+}
+
+.sidebar a:hover {
+  background: #eff6ff;
+
+  color: #2563eb;
+}
+
+.logout-btn {
+  margin-top: 40px;
+
+  background: #ef4444;
+}
+
+.dashboard-content {
+  flex: 1;
+
+  padding: 40px;
+}
+
+.dashboard-title {
+  font-size: 30px;
+
+  font-weight: 700;
+}
+
+.stat-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+.stat-card {
+  background: white;
+
+  padding: 22px;
+
+  border-radius: 14px;
+
+  border: 1px solid #e5e7eb;
+}
+
+.stat-card h3 {
+  color: #64748b;
+
+  font-size: 14px;
+}
+
+.stat-number {
+  font-size: 30px;
+
+  font-weight: 700;
+
+  margin-top: 10px;
+}
+
+.card {
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 14px;
+
+  border: 1px solid #e5e7eb;
+
+  margin-top: 25px;
+}
+
+/* PROFILE */
+
+.profile-card {
+  background: white;
+
+  width: 450px;
+
+  padding: 35px;
+
+  border-radius: 16px;
+
+  border: 1px solid #e5e7eb;
+}
+
+.avatar {
+  width: 70px;
+
+  height: 70px;
+
+  border-radius: 50%;
+
+  background: #2563eb;
+
+  color: white;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+.profile-item {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 14px 0;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sidebar {
+  width: 230px;
+
+  min-height: 100vh;
+
+  background: white;
+
+  border-right: 1px solid #e5e7eb;
+
+  padding: 25px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: space-between;
+}
+
+.sidebar nav {
+  margin-top: 30px;
+}
+
+.logout-btn {
+  width: 100%;
+
+  padding: 10px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #fee2e2;
+
+  color: #dc2626;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #fecaca;
+}
+
+.history-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  gap: 20px;
+
+  margin-top: 30px;
+}
+
+.history-card {
+  background: white;
+
+  border: 1px solid #e5e7eb;
+
+  padding: 22px;
+
+  border-radius: 14px;
+}
+
+.history-card:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.history-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.history-header span {
+  background: #eff6ff;
+
+  color: #2563eb;
+
+  padding: 6px 12px;
+
+  border-radius: 20px;
+
+  font-weight: 600;
+}
+
+.history-card p {
+  color: #64748b;
+
+  margin: 15px 0;
+}
+
+.history-card small {
+  color: #94a3b8;
+}
