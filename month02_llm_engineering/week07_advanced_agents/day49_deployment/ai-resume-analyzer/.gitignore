@@ -1,0 +1,15 @@
+node_modules
+
+.env
+
+.next
+
+uploads
+
+dist
+
+coverage
+
+*.log
+
+.env.example
