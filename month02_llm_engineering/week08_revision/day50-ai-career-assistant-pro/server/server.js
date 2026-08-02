@@ -5,6 +5,7 @@ import morgan from "morgan";
 
 import healthRoute from "./routes/health.js";
 import connectDB from "./config/db.js";
+import authRoutes from "./routes/authRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -23,6 +24,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 
 app.use("/api/health", healthRoute);
+app.use("/api/auth", authRoutes);
 
 app.get("/", (req, res) => {
   res.json({
