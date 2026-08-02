@@ -3,6 +3,8 @@ import { retrieveContext } from "../rag/ragService.js";
 import { generateAIResponse } from "../services/groqService.js";
 
 import { getHistory, saveMessage } from "../memory/memoryService.js";
+import { saveLog } from "../monitoring/logger.js";
+import { evaluateResponse } from "../evaluation/evaluator.js";
 
 export const chat = async (req, res) => {
   try {
@@ -34,7 +36,27 @@ Answer the user's latest question.
 `;
 
     // Generate AI response
+    const start = Date.now();
+
     const answer = await generateAIResponse(systemPrompt, question);
+
+    const duration = Date.now() - start;
+
+    await saveLog({
+      endpoint: "/api/chat",
+
+      method: "POST",
+
+      duration,
+
+      status: 200,
+
+      prompt: question,
+
+      response: answer,
+    });
+
+    const evaluation = evaluateResponse(answer);
 
     // Save user message
     await saveMessage(sessionId, "user", question);

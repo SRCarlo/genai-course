@@ -14,6 +14,8 @@ import agentRoutes from "./routes/agentRoutes.js";
 import memoryRoutes from "./routes/memoryRoutes.js";
 import errorHandler from "./middleware/errorHandler.js";
 import notFound from "./middleware/notFound.js";
+import monitorRoutes from "./routes/monitorRoutes.js";
+import statsRoutes from "./routes/statsRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -39,6 +41,9 @@ app.use("/api/knowledge", knowledgeRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/agent", agentRoutes);
 app.use("/api/memory", memoryRoutes);
+app.use("/api/monitor", monitorRoutes);
+app.use("/api/stats", statsRoutes);
+
 app.use(notFound);
 app.use(errorHandler);
 
