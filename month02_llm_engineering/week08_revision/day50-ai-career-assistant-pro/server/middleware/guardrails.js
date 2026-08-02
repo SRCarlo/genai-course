@@ -1,17 +1,31 @@
-export const validatePrompt = (req, res, next) => {
-  const { question } = req.body;
+export const validateChatRequest = (req, res, next) => {
+  const { sessionId, question } = req.body;
 
-  if (!question || question.trim().length === 0) {
+  if (!sessionId) {
+    return res.status(400).json({
+      success: false,
+      message: "Session ID is required",
+    });
+  }
+
+  if (!question) {
     return res.status(400).json({
       success: false,
       message: "Question is required",
     });
   }
 
-  if (question.length > 4000) {
+  if (question.trim().length < 3) {
     return res.status(400).json({
       success: false,
-      message: "Question is too long",
+      message: "Question is too short",
+    });
+  }
+
+  if (question.length > 3000) {
+    return res.status(400).json({
+      success: false,
+      message: "Question exceeds 3000 characters",
     });
   }
 
