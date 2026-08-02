@@ -4,8 +4,10 @@ import dotenv from "dotenv";
 import morgan from "morgan";
 
 import healthRoute from "./routes/health.js";
+import connectDB from "./config/db.js";
 
 dotenv.config();
+connectDB();
 
 const app = express();
 
