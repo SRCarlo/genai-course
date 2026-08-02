@@ -10,6 +10,7 @@ import authRoutes from "./routes/authRoutes.js";
 import resumeRoutes from "./routes/resumeRoutes.js";
 import knowledgeRoutes from "./routes/knowledgeRoutes.js";
 import chatRoutes from "./routes/chatRoutes.js";
+import agentRoutes from "./routes/agentRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -33,6 +34,7 @@ app.use("/api/ai", aiRoutes);
 app.use("/api/resume", resumeRoutes);
 app.use("/api/knowledge", knowledgeRoutes);
 app.use("/api/chat", chatRoutes);
+app.use("/api/agent", agentRoutes);
 
 app.get("/", (req, res) => {
   res.json({
