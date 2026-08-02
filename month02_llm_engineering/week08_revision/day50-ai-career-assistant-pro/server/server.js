@@ -11,6 +11,7 @@ import resumeRoutes from "./routes/resumeRoutes.js";
 import knowledgeRoutes from "./routes/knowledgeRoutes.js";
 import chatRoutes from "./routes/chatRoutes.js";
 import agentRoutes from "./routes/agentRoutes.js";
+import memoryRoutes from "./routes/memoryRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -35,6 +36,7 @@ app.use("/api/resume", resumeRoutes);
 app.use("/api/knowledge", knowledgeRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/agent", agentRoutes);
+app.use("/api/memory", memoryRoutes);
 
 app.get("/", (req, res) => {
   res.json({

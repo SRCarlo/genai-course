@@ -14,8 +14,6 @@ export const careerAgent = async (query, type) => {
       return await ragTool(query);
 
     default:
-      return {
-        message: "Unknown tool",
-      };
+      throw new Error("Unknown agent type");
   }
 };
