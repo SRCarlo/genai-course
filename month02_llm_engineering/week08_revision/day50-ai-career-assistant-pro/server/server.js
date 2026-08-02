@@ -8,6 +8,8 @@ import connectDB from "./config/db.js";
 import aiRoutes from "./routes/aiRoutes.js";
 import authRoutes from "./routes/authRoutes.js";
 import resumeRoutes from "./routes/resumeRoutes.js";
+import knowledgeRoutes from "./routes/knowledgeRoutes.js";
+import chatRoutes from "./routes/chatRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -29,6 +31,8 @@ app.use("/api/health", healthRoute);
 app.use("/api/auth", authRoutes);
 app.use("/api/ai", aiRoutes);
 app.use("/api/resume", resumeRoutes);
+app.use("/api/knowledge", knowledgeRoutes);
+app.use("/api/chat", chatRoutes);
 
 app.get("/", (req, res) => {
   res.json({
