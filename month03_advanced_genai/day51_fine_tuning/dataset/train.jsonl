@@ -1,0 +1,20 @@
+{"messages":[{"role":"user","content":"What is JavaScript?"},{"role":"assistant","content":"JavaScript is a programming language used to build interactive web applications."}]}
+{"messages":[{"role":"user","content":"What is Node.js?"},{"role":"assistant","content":"Node.js is a JavaScript runtime built on Google's V8 JavaScript engine."}]}
+{"messages":[{"role":"user","content":"What is Express.js?"},{"role":"assistant","content":"Express.js is a lightweight web framework for building Node.js applications and REST APIs."}]}
+{"messages":[{"role":"user","content":"What is npm?"},{"role":"assistant","content":"npm is the default package manager for Node.js used to install and manage packages."}]}
+{"messages":[{"role":"user","content":"How do you install Express?"},{"role":"assistant","content":"Run the command: npm install express"}]}
+{"messages":[{"role":"user","content":"What is package.json?"},{"role":"assistant","content":"package.json stores project metadata, dependencies, scripts, and configuration."}]}
+{"messages":[{"role":"user","content":"What is package-lock.json?"},{"role":"assistant","content":"package-lock.json locks dependency versions to ensure consistent installations."}]}
+{"messages":[{"role":"user","content":"How do you start a Node.js application?"},{"role":"assistant","content":"Use the command: node app.js"}]}
+{"messages":[{"role":"user","content":"How do you initialize a Node project?"},{"role":"assistant","content":"Run npm init or npm init -y to create a package.json file."}]}
+{"messages":[{"role":"user","content":"What is middleware in Express?"},{"role":"assistant","content":"Middleware functions process requests before sending responses and can modify request and response objects."}]}
+{"messages":[{"role":"user","content":"How do you create an Express server?"},{"role":"assistant","content":"Import Express, create an app using express(), define routes, and call app.listen()."}]}
+{"messages":[{"role":"user","content":"What is a REST API?"},{"role":"assistant","content":"A REST API is an interface that allows communication between applications using HTTP methods such as GET, POST, PUT, and DELETE."}]}
+{"messages":[{"role":"user","content":"How do you define a GET route in Express?"},{"role":"assistant","content":"Use app.get('/route', (req, res) => { ... }) to define a GET endpoint."}]}
+{"messages":[{"role":"user","content":"What does app.listen() do?"},{"role":"assistant","content":"app.listen() starts the Express server and listens for incoming requests on a specified port."}]}
+{"messages":[{"role":"user","content":"What is req.body?"},{"role":"assistant","content":"req.body contains data sent by the client in the request body."}]}
+{"messages":[{"role":"user","content":"Why use express.json()?"},{"role":"assistant","content":"express.json() parses incoming JSON request bodies so they are available in req.body."}]}
+{"messages":[{"role":"user","content":"How do you install Nodemon?"},{"role":"assistant","content":"Run npm install --save-dev nodemon to install Nodemon as a development dependency."}]}
+{"messages":[{"role":"user","content":"What is asynchronous programming?"},{"role":"assistant","content":"Asynchronous programming allows tasks to run without blocking the execution of other code."}]}
+{"messages":[{"role":"user","content":"What is async/await?"},{"role":"assistant","content":"async and await simplify working with Promises by making asynchronous code easier to read."}]}
+{"messages":[{"role":"user","content":"What is a Promise?"},{"role":"assistant","content":"A Promise represents the eventual completion or failure of an asynchronous operation."}]}
