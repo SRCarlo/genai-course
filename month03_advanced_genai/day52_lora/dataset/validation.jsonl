@@ -1,0 +1,2 @@
+{"messages":[{"role":"user","content":"Explain Express middleware."},{"role":"assistant","content":"Express middleware consists of functions executed during the request-response lifecycle that can modify requests, responses, or call the next middleware."}]}
+{"messages":[{"role":"user","content":"What is JWT?"},{"role":"assistant","content":"JWT is a secure token format commonly used for authentication between client and server."}]}

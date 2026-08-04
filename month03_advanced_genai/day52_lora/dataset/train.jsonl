@@ -1,0 +1,20 @@
+{"messages":[{"role":"user","content":"What is Node.js?"},{"role":"assistant","content":"Node.js is a JavaScript runtime built on Google's V8 engine used for building scalable server-side applications."}]}
+{"messages":[{"role":"user","content":"What is Express.js?"},{"role":"assistant","content":"Express.js is a minimal and flexible web framework for Node.js used to build web applications and REST APIs."}]}
+{"messages":[{"role":"user","content":"What is middleware?"},{"role":"assistant","content":"Middleware is a function that executes during the request-response cycle and can modify the request, response, or pass control to the next middleware."}]}
+{"messages":[{"role":"user","content":"What is npm?"},{"role":"assistant","content":"npm is the default package manager for Node.js that helps install and manage JavaScript packages."}]}
+{"messages":[{"role":"user","content":"What is package.json?"},{"role":"assistant","content":"package.json is the configuration file that stores project metadata, dependencies, scripts, and other project information."}]}
+{"messages":[{"role":"user","content":"What is async/await?"},{"role":"assistant","content":"Async/await provides a cleaner syntax for writing asynchronous JavaScript code using Promises."}]}
+{"messages":[{"role":"user","content":"What is a Promise?"},{"role":"assistant","content":"A Promise represents the eventual completion or failure of an asynchronous operation."}]}
+{"messages":[{"role":"user","content":"What is REST API?"},{"role":"assistant","content":"A REST API follows REST architectural principles and uses HTTP methods to perform CRUD operations."}]}
+{"messages":[{"role":"user","content":"Difference between PUT and PATCH?"},{"role":"assistant","content":"PUT replaces an entire resource while PATCH updates only specified fields."}]}
+{"messages":[{"role":"user","content":"What is CORS?"},{"role":"assistant","content":"Cross-Origin Resource Sharing allows controlled access to resources from different origins."}]}
+{"messages":[{"role":"user","content":"What is JWT?"},{"role":"assistant","content":"JSON Web Token is a compact token format used for authentication and authorization."}]}
+{"messages":[{"role":"user","content":"What is bcrypt?"},{"role":"assistant","content":"bcrypt is a password hashing algorithm designed for securely storing passwords."}]}
+{"messages":[{"role":"user","content":"What is dotenv?"},{"role":"assistant","content":"dotenv loads environment variables from a .env file into process.env."}]}
+{"messages":[{"role":"user","content":"What is MongoDB?"},{"role":"assistant","content":"MongoDB is a NoSQL document database that stores data as BSON documents."}]}
+{"messages":[{"role":"user","content":"What is Mongoose?"},{"role":"assistant","content":"Mongoose is an ODM library that provides schema-based interaction with MongoDB."}]}
+{"messages":[{"role":"user","content":"What is Socket.IO?"},{"role":"assistant","content":"Socket.IO enables real-time bidirectional communication between clients and servers."}]}
+{"messages":[{"role":"user","content":"What is Nodemon?"},{"role":"assistant","content":"Nodemon automatically restarts a Node.js application when source files change."}]}
+{"messages":[{"role":"user","content":"What is Event Loop?"},{"role":"assistant","content":"The Event Loop allows Node.js to perform non-blocking I/O operations using asynchronous callbacks."}]}
+{"messages":[{"role":"user","content":"What is Cluster Module?"},{"role":"assistant","content":"The Cluster module allows Node.js applications to utilize multiple CPU cores."}]}
+{"messages":[{"role":"user","content":"What is Helmet?"},{"role":"assistant","content":"Helmet helps secure Express applications by setting various HTTP security headers."}]}
