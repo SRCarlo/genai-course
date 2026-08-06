@@ -1,0 +1,13 @@
+# REST API
+
+REST APIs use HTTP methods.
+
+GET
+
+POST
+
+PUT
+
+PATCH
+
+DELETE
