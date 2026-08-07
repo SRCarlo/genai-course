@@ -1,0 +1,124 @@
+[
+  {
+    "question": "What is Express middleware?",
+    "expectedSources": [
+      "express.md"
+    ],
+    "retrievedSources": [
+      "express.md",
+      "nodejs.md",
+      "mongodb.md"
+    ],
+    "generatedAnswer": "Express middleware functions have access to the request, response, and next function.",
+    "hitAt5": true,
+    "recallAt5": 1,
+    "reciprocalRank": 1
+  },
+  {
+    "question": "What is Node.js?",
+    "expectedSources": [
+      "nodejs.md"
+    ],
+    "retrievedSources": [
+      "nodejs.md",
+      "javascript.md",
+      "express.md"
+    ],
+    "generatedAnswer": "Node.js is a JavaScript runtime built on Chrome's V8 engine.",
+    "hitAt5": true,
+    "recallAt5": 1,
+    "reciprocalRank": 1
+  },
+  {
+    "question": "What is MongoDB?",
+    "expectedSources": [
+      "mongodb.md"
+    ],
+    "retrievedSources": [
+      "mongodb.md",
+      "database.md",
+      "nodejs.md"
+    ],
+    "generatedAnswer": "MongoDB is a NoSQL document database.",
+    "hitAt5": true,
+    "recallAt5": 1,
+    "reciprocalRank": 1
+  },
+  {
+    "question": "What is Express Router?",
+    "expectedSources": [
+      "express.md"
+    ],
+    "retrievedSources": [],
+    "generatedAnswer": "No answer available.",
+    "hitAt5": false,
+    "recallAt5": 0,
+    "reciprocalRank": 0
+  },
+  {
+    "question": "What is npm?",
+    "expectedSources": [
+      "nodejs.md"
+    ],
+    "retrievedSources": [],
+    "generatedAnswer": "No answer available.",
+    "hitAt5": false,
+    "recallAt5": 0,
+    "reciprocalRank": 0
+  },
+  {
+    "question": "Explain REST API.",
+    "expectedSources": [
+      "api.md"
+    ],
+    "retrievedSources": [],
+    "generatedAnswer": "No answer available.",
+    "hitAt5": false,
+    "recallAt5": 0,
+    "reciprocalRank": 0
+  },
+  {
+    "question": "Explain JWT authentication.",
+    "expectedSources": [
+      "auth.md"
+    ],
+    "retrievedSources": [],
+    "generatedAnswer": "No answer available.",
+    "hitAt5": false,
+    "recallAt5": 0,
+    "reciprocalRank": 0
+  },
+  {
+    "question": "Explain Mongoose.",
+    "expectedSources": [
+      "mongodb.md"
+    ],
+    "retrievedSources": [],
+    "generatedAnswer": "No answer available.",
+    "hitAt5": false,
+    "recallAt5": 0,
+    "reciprocalRank": 0
+  },
+  {
+    "question": "What is middleware chaining?",
+    "expectedSources": [
+      "express.md"
+    ],
+    "retrievedSources": [],
+    "generatedAnswer": "No answer available.",
+    "hitAt5": false,
+    "recallAt5": 0,
+    "reciprocalRank": 0
+  },
+  {
+    "question": "Explain event loop.",
+    "expectedSources": [
+      "nodejs.md"
+    ],
+    "retrievedSources": [],
+    "generatedAnswer": "No answer available.",
+    "hitAt5": false,
+    "recallAt5": 0,
+    "reciprocalRank": 0
+  }
+]
