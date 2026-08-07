@@ -1,0 +1,65 @@
+[
+    {
+        "question": "What is Express middleware?",
+        "expectedSources": [
+            "express.md"
+        ],
+        "expectedAnswer": "Middleware functions can access request and response objects."
+    },
+    {
+        "question": "What is Node.js?",
+        "expectedSources": [
+            "nodejs.md"
+        ],
+        "expectedAnswer": "Node.js is a JavaScript runtime."
+    },
+    {
+        "question": "What is MongoDB?",
+        "expectedSources": [
+            "mongodb.md"
+        ],
+        "expectedAnswer": "MongoDB is a NoSQL database."
+    },
+    {
+        "question": "What is Express Router?",
+        "expectedSources": [
+            "express.md"
+        ]
+    },
+    {
+        "question": "What is npm?",
+        "expectedSources": [
+            "nodejs.md"
+        ]
+    },
+    {
+        "question": "Explain REST API.",
+        "expectedSources": [
+            "api.md"
+        ]
+    },
+    {
+        "question": "Explain JWT authentication.",
+        "expectedSources": [
+            "auth.md"
+        ]
+    },
+    {
+        "question": "Explain Mongoose.",
+        "expectedSources": [
+            "mongodb.md"
+        ]
+    },
+    {
+        "question": "What is middleware chaining?",
+        "expectedSources": [
+            "express.md"
+        ]
+    },
+    {
+        "question": "Explain event loop.",
+        "expectedSources": [
+            "nodejs.md"
+        ]
+    }
+]
