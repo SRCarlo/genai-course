@@ -1,0 +1,77 @@
+[
+    {
+        "question": "What is Express?",
+        "expectedSources": [
+            "express.md"
+        ]
+    },
+    {
+        "question": "How does Express middleware work?",
+        "expectedSources": [
+            "middleware.md",
+            "express.md"
+        ]
+    },
+    {
+        "question": "What is Node.js?",
+        "expectedSources": [
+            "nodejs.md"
+        ]
+    },
+    {
+        "question": "What is MongoDB?",
+        "expectedSources": [
+            "mongodb.md"
+        ]
+    },
+    {
+        "question": "What is JavaScript?",
+        "expectedSources": [
+            "javascript.md"
+        ]
+    },
+    {
+        "question": "What is an API?",
+        "expectedSources": [
+            "api.md"
+        ]
+    },
+    {
+        "question": "How does Express routing work?",
+        "expectedSources": [
+            "routing.md"
+        ]
+    },
+    {
+        "question": "What is async and await?",
+        "expectedSources": [
+            "async.md"
+        ]
+    },
+    {
+        "question": "How should Express errors be handled?",
+        "expectedSources": [
+            "errors.md"
+        ]
+    },
+    {
+        "question": "What is a REST API?",
+        "expectedSources": [
+            "rest.md"
+        ]
+    },
+    {
+        "question": "What does GET do in a REST API?",
+        "expectedSources": [
+            "rest.md",
+            "api.md"
+        ]
+    },
+    {
+        "question": "What does the next function do in Express middleware?",
+        "expectedSources": [
+            "middleware.md",
+            "express.md"
+        ]
+    }
+]

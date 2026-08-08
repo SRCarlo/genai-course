@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-08-08T11:05:09.209Z",
+  "summary": {
+    "questions": 12,
+    "hitAt5": 1,
+    "recallAt5": 1,
+    "mrr": 0.9583333333333334,
+    "averageLatencyMs": 7389
+  },
+  "results": [
+    {
+      "question": "What is Express?",
+      "expectedSources": [
+        "express.md"
+      ],
+      "retrievedSources": [
+        "express.md",
+        "routing.md",
+        "middleware.md",
+        "errors.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 9683
+    },
+    {
+      "question": "How does Express middleware work?",
+      "expectedSources": [
+        "middleware.md",
+        "express.md"
+      ],
+      "retrievedSources": [
+        "middleware.md",
+        "express.md",
+        "routing.md",
+        "errors.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 5955
+    },
+    {
+      "question": "What is Node.js?",
+      "expectedSources": [
+        "nodejs.md"
+      ],
+      "retrievedSources": [
+        "nodejs.md",
+        "javascript.md",
+        "express.md",
+        "mongodb.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 5939
+    },
+    {
+      "question": "What is MongoDB?",
+      "expectedSources": [
+        "mongodb.md"
+      ],
+      "retrievedSources": [
+        "mongodb.md",
+        "javascript.md",
+        "nodejs.md",
+        "api.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 8957
+    },
+    {
+      "question": "What is JavaScript?",
+      "expectedSources": [
+        "javascript.md"
+      ],
+      "retrievedSources": [
+        "javascript.md",
+        "nodejs.md",
+        "async.md",
+        "express.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 5711
+    },
+    {
+      "question": "What is an API?",
+      "expectedSources": [
+        "api.md"
+      ],
+      "retrievedSources": [
+        "nodejs.md",
+        "api.md",
+        "express.md",
+        "rest.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 0.5,
+      "latencyMs": 5697
+    },
+    {
+      "question": "How does Express routing work?",
+      "expectedSources": [
+        "routing.md"
+      ],
+      "retrievedSources": [
+        "routing.md",
+        "express.md",
+        "middleware.md",
+        "rest.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 5730
+    },
+    {
+      "question": "What is async and await?",
+      "expectedSources": [
+        "async.md"
+      ],
+      "retrievedSources": [
+        "async.md",
+        "javascript.md",
+        "nodejs.md",
+        "api.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 9371
+    },
+    {
+      "question": "How should Express errors be handled?",
+      "expectedSources": [
+        "errors.md"
+      ],
+      "retrievedSources": [
+        "errors.md",
+        "middleware.md",
+        "routing.md",
+        "rest.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 5921
+    },
+    {
+      "question": "What is a REST API?",
+      "expectedSources": [
+        "rest.md"
+      ],
+      "retrievedSources": [
+        "rest.md",
+        "api.md",
+        "express.md",
+        "nodejs.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 5624
+    },
+    {
+      "question": "What does GET do in a REST API?",
+      "expectedSources": [
+        "rest.md",
+        "api.md"
+      ],
+      "retrievedSources": [
+        "rest.md",
+        "api.md",
+        "express.md",
+        "middleware.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 10280
+    },
+    {
+      "question": "What does the next function do in Express middleware?",
+      "expectedSources": [
+        "middleware.md",
+        "express.md"
+      ],
+      "retrievedSources": [
+        "middleware.md",
+        "express.md",
+        "errors.md",
+        "routing.md"
+      ],
+      "hitAt5": 1,
+      "recallAt5": 1,
+      "mrr": 1,
+      "latencyMs": 9800
+    }
+  ]
+}
