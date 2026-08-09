@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "input": "Calculate 125 * 48",
+        "expectedTool": "calculator"
+    },
+    {
+        "id": 2,
+        "input": "What is 1000 / 25?",
+        "expectedTool": "calculator"
+    },
+    {
+        "id": 3,
+        "input": "Calculate (20 + 10) * 5",
+        "expectedTool": "calculator"
+    },
+    {
+        "id": 4,
+        "input": "What time is it?",
+        "expectedTool": "getCurrentTime"
+    },
+    {
+        "id": 5,
+        "input": "Give me the current server time",
+        "expectedTool": "getCurrentTime"
+    },
+    {
+        "id": 6,
+        "input": "What is Express middleware?",
+        "expectedTool": "searchKnowledge"
+    },
+    {
+        "id": 7,
+        "input": "Explain RAG",
+        "expectedTool": "searchKnowledge"
+    },
+    {
+        "id": 8,
+        "input": "What is an AI agent?",
+        "expectedTool": "searchKnowledge"
+    },
+    {
+        "id": 9,
+        "input": "Hello",
+        "expectedTool": null
+    },
+    {
+        "id": 10,
+        "input": "How are you?",
+        "expectedTool": null
+    }
+]
