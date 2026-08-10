@@ -1,0 +1,122 @@
+{
+    "day": 58,
+    "title": "Advanced Tool Calling Evaluation",
+    "provider": "Groq",
+    "tests": [
+        {
+            "id": "TC-001",
+            "name": "Basic calculator",
+            "input": "Calculate 125 * 48",
+            "expectedTool": "calculator",
+            "expectedResult": 6000,
+            "status": "pending"
+        },
+        {
+            "id": "TC-002",
+            "name": "Current time",
+            "input": "What time is it?",
+            "expectedTool": "getCurrentTime",
+            "status": "pending"
+        },
+        {
+            "id": "TC-003",
+            "name": "Knowledge search",
+            "input": "Explain Express middleware",
+            "expectedTool": "searchKnowledge",
+            "status": "pending"
+        },
+        {
+            "id": "TC-004",
+            "name": "Multiple independent tools",
+            "input": "What time is it and what is 50 * 20?",
+            "expectedTools": [
+                "getCurrentTime",
+                "calculator"
+            ],
+            "expectedCalculatorResult": 1000,
+            "status": "pending"
+        },
+        {
+            "id": "TC-005",
+            "name": "Missing calculator argument",
+            "toolCall": {
+                "name": "calculator",
+                "arguments": {}
+            },
+            "expectedSuccess": false,
+            "expectedError": "Missing required argument: expression",
+            "status": "pending"
+        },
+        {
+            "id": "TC-006",
+            "name": "Unknown tool",
+            "toolCall": {
+                "name": "deleteEverything",
+                "arguments": {}
+            },
+            "expectedSuccess": false,
+            "expectedErrorContains": "Unknown tool",
+            "status": "pending"
+        },
+        {
+            "id": "TC-007",
+            "name": "Wrong argument type",
+            "toolCall": {
+                "name": "calculator",
+                "arguments": {
+                    "expression": 12345
+                }
+            },
+            "expectedSuccess": false,
+            "expectedError": "expression must be a string",
+            "status": "pending"
+        },
+        {
+            "id": "TC-008",
+            "name": "Invalid calculator expression",
+            "toolCall": {
+                "name": "calculator",
+                "arguments": {
+                    "expression": "hello + database"
+                }
+            },
+            "expectedSuccess": false,
+            "status": "pending"
+        },
+        {
+            "id": "TC-009",
+            "name": "Agent trace",
+            "input": "Calculate 25 * 40",
+            "expectedTrace": true,
+            "status": "pending"
+        },
+        {
+            "id": "TC-010",
+            "name": "Maximum agent steps",
+            "scenario": "Force the agent to exceed the configured maximum number of steps",
+            "expectedSuccess": false,
+            "expectedErrorContains": "Maximum agent steps",
+            "status": "pending"
+        },
+        {
+            "id": "TC-011",
+            "name": "Maximum tool calls",
+            "scenario": "Force more than the configured maximum tool calls in one step",
+            "expectedSuccess": false,
+            "expectedErrorContains": "Too many tool calls",
+            "status": "pending"
+        },
+        {
+            "id": "TC-012",
+            "name": "Three-tool request",
+            "input": "Give me the current time, calculate 45 * 78, and explain Express middleware.",
+            "expectedTools": [
+                "getCurrentTime",
+                "calculator",
+                "searchKnowledge"
+            ],
+            "expectedCalculatorResult": 3510,
+            "status": "pending"
+        }
+    ]
+}
