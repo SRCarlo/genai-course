@@ -1,0 +1,86 @@
+[
+    {
+        "sourceId": "doc-refund-001",
+        "title": "Refund Policy",
+        "source": "refund-policy.md",
+        "chunkId": "refund-001",
+        "content": "Employees and customers can request a refund for eligible purchases within 30 days of the original purchase date."
+    },
+    {
+        "sourceId": "doc-refund-001",
+        "title": "Refund Policy",
+        "source": "refund-policy.md",
+        "chunkId": "refund-002",
+        "content": "Refund requests must include the order number and reason for the request. Approved refunds are normally processed within 5 business days."
+    },
+    {
+        "sourceId": "doc-refund-001",
+        "title": "Refund Policy",
+        "source": "refund-policy.md",
+        "chunkId": "refund-003",
+        "content": "Enterprise customers may have different refund terms defined in their individual contracts."
+    },
+    {
+        "sourceId": "doc-refund-001",
+        "title": "Refund Policy",
+        "source": "refund-policy.md",
+        "chunkId": "refund-004",
+        "content": "Digital products that have already been fully consumed may not qualify for a refund. The finance team is responsible for approving refund exceptions."
+    },
+    {
+        "sourceId": "doc-handbook-001",
+        "title": "Employee Handbook",
+        "source": "employee-handbook.md",
+        "chunkId": "leave-001",
+        "content": "Employees receive 24 paid leave days per calendar year."
+    },
+    {
+        "sourceId": "doc-handbook-001",
+        "title": "Employee Handbook",
+        "source": "employee-handbook.md",
+        "chunkId": "leave-002",
+        "content": "Leave requests should normally be submitted at least 3 working days before the planned leave. Emergency leave may be requested without the normal advance notice."
+    },
+    {
+        "sourceId": "doc-handbook-001",
+        "title": "Employee Handbook",
+        "source": "employee-handbook.md",
+        "chunkId": "leave-003",
+        "content": "Employees should contact their manager for leave approval. Unused paid leave can be carried forward for up to 10 days into the following calendar year."
+    },
+    {
+        "sourceId": "doc-handbook-001",
+        "title": "Employee Handbook",
+        "source": "employee-handbook.md",
+        "chunkId": "leave-004",
+        "content": "Public holidays are separate from the annual paid leave allowance."
+    },
+    {
+        "sourceId": "doc-bonus-001",
+        "title": "Bonus Policy",
+        "source": "bonus-policy.md",
+        "chunkId": "bonus-001",
+        "content": "Eligible employees may receive an annual performance bonus."
+    },
+    {
+        "sourceId": "doc-bonus-001",
+        "title": "Bonus Policy",
+        "source": "bonus-policy.md",
+        "chunkId": "bonus-002",
+        "content": "The standard performance bonus rate is 10 percent of eligible annual compensation."
+    },
+    {
+        "sourceId": "doc-bonus-001",
+        "title": "Bonus Policy",
+        "source": "bonus-policy.md",
+        "chunkId": "bonus-003",
+        "content": "Bonus eligibility depends on employee performance, role, and company performance. Employees must meet the eligibility requirements at the time bonuses are calculated."
+    },
+    {
+        "sourceId": "doc-bonus-001",
+        "title": "Bonus Policy",
+        "source": "bonus-policy.md",
+        "chunkId": "bonus-004",
+        "content": "The final bonus amount is subject to management approval. Contract employees may have different bonus arrangements."
+    }
+]
