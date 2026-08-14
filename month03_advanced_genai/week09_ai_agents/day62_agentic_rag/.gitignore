@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+
+.DS_Store
+
+.cache/
+.huggingface/
+transformers_cache/
+
+coverage/
+logs/
+
+npm-debug.log*
