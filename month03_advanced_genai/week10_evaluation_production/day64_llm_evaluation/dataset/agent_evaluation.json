@@ -1,0 +1,49 @@
+[
+    {
+        "id": "agent001",
+        "question": "According to the bonus policy, what is 10% of 60000?",
+        "expectedTools": [
+            "knowledge_search",
+            "calculator"
+        ],
+        "expectedSource": "bonus-policy.txt",
+        "expectedAnswer": "The performance bonus can be up to 10% of eligible salary, so 10% of 60000 is 6000."
+    },
+    {
+        "id": "agent002",
+        "question": "According to the refund policy, how long does processing take?",
+        "expectedTools": [
+            "knowledge_search"
+        ],
+        "expectedSource": "refund-policy.txt",
+        "expectedAnswer": "Approved refunds are normally processed within 5 business days."
+    },
+    {
+        "id": "agent003",
+        "question": "According to the leave policy, how many annual leave days are provided?",
+        "expectedTools": [
+            "knowledge_search"
+        ],
+        "expectedSource": "leave-policy.txt",
+        "expectedAnswer": "Employees receive 20 days of annual leave per year."
+    },
+    {
+        "id": "agent004",
+        "question": "According to the bonus policy, what is 15% of 80000?",
+        "expectedTools": [
+            "knowledge_search",
+            "calculator"
+        ],
+        "expectedSource": "bonus-policy.txt",
+        "expectedAnswer": "The bonus policy states the maximum performance bonus is 10% of eligible salary. Although 15% of 80000 is 12000, that exceeds the stated maximum bonus percentage."
+    },
+    {
+        "id": "agent005",
+        "question": "According to the refund policy, what is the refund period and processing time?",
+        "expectedTools": [
+            "knowledge_search"
+        ],
+        "expectedSource": "refund-policy.txt",
+        "expectedAnswer": "Customers can request a refund within 30 days, and approved refunds are normally processed within 5 business days."
+    }
+]

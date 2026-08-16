@@ -1,0 +1,184 @@
+[
+    {
+        "id": "q001",
+        "category": "rag",
+        "question": "What is the refund period?",
+        "expectedAnswer": "Customers can request a refund within 30 days.",
+        "expectedSource": "refund-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q002",
+        "category": "rag",
+        "question": "How long are refunds normally processed?",
+        "expectedAnswer": "Approved refunds are normally processed within 5 business days.",
+        "expectedSource": "refund-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q003",
+        "category": "rag",
+        "question": "What is the maximum performance bonus?",
+        "expectedAnswer": "The performance bonus can be up to 10% of eligible salary.",
+        "expectedSource": "bonus-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q004",
+        "category": "rag",
+        "question": "What is the annual leave policy?",
+        "expectedAnswer": "Employees receive 20 days of annual leave per year.",
+        "expectedSource": "leave-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q005",
+        "category": "rag",
+        "question": "Who can receive the performance bonus?",
+        "expectedAnswer": "Eligible employees can receive the performance bonus according to the bonus policy.",
+        "expectedSource": "bonus-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q006",
+        "category": "calculator",
+        "question": "What is 10% of 60000?",
+        "expectedAnswer": "6000",
+        "expectedSource": null,
+        "shouldRefuse": false
+    },
+    {
+        "id": "q007",
+        "category": "calculator",
+        "question": "What is 15% of 80000?",
+        "expectedAnswer": "12000",
+        "expectedSource": null,
+        "shouldRefuse": false
+    },
+    {
+        "id": "q008",
+        "category": "calculator",
+        "question": "What is 20% of 50000?",
+        "expectedAnswer": "10000",
+        "expectedSource": null,
+        "shouldRefuse": false
+    },
+    {
+        "id": "q009",
+        "category": "calculator",
+        "question": "What is 25% of 40000?",
+        "expectedAnswer": "10000",
+        "expectedSource": null,
+        "shouldRefuse": false
+    },
+    {
+        "id": "q010",
+        "category": "calculator",
+        "question": "What is 5% of 100000?",
+        "expectedAnswer": "5000",
+        "expectedSource": null,
+        "shouldRefuse": false
+    },
+    {
+        "id": "q011",
+        "category": "agentic",
+        "question": "According to the bonus policy, what is 10% of 60000?",
+        "expectedAnswer": "The performance bonus can be up to 10% of eligible salary, so 10% of 60000 is 6000.",
+        "expectedTools": [
+            "knowledge_search",
+            "calculator"
+        ],
+        "expectedSource": "bonus-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q012",
+        "category": "agentic",
+        "question": "According to the refund policy, how long does processing take?",
+        "expectedAnswer": "Approved refunds are normally processed within 5 business days.",
+        "expectedTools": [
+            "knowledge_search"
+        ],
+        "expectedSource": "refund-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q013",
+        "category": "agentic",
+        "question": "According to the bonus policy, what is 15% of 80000?",
+        "expectedAnswer": "The bonus policy states the maximum performance bonus is 10% of eligible salary. Although 15% of 80000 is 12000, that exceeds the stated maximum bonus percentage.",
+        "expectedTools": [
+            "knowledge_search",
+            "calculator"
+        ],
+        "expectedSource": "bonus-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q014",
+        "category": "agentic",
+        "question": "According to the leave policy, how many annual leave days are provided?",
+        "expectedAnswer": "Employees receive 20 days of annual leave per year.",
+        "expectedTools": [
+            "knowledge_search"
+        ],
+        "expectedSource": "leave-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q015",
+        "category": "agentic",
+        "question": "According to the refund policy, what is the refund period and how long does processing normally take?",
+        "expectedAnswer": "Customers can request a refund within 30 days, and approved refunds are normally processed within 5 business days.",
+        "expectedTools": [
+            "knowledge_search"
+        ],
+        "expectedSource": "refund-policy.txt",
+        "shouldRefuse": false
+    },
+    {
+        "id": "q016",
+        "category": "out_of_scope",
+        "question": "What is Apple's stock price?",
+        "expectedAnswer": null,
+        "expectedTools": [],
+        "expectedSource": null,
+        "shouldRefuse": true
+    },
+    {
+        "id": "q017",
+        "category": "out_of_scope",
+        "question": "Who is the president of the United States?",
+        "expectedAnswer": null,
+        "expectedTools": [],
+        "expectedSource": null,
+        "shouldRefuse": true
+    },
+    {
+        "id": "q018",
+        "category": "out_of_scope",
+        "question": "What will the weather be tomorrow?",
+        "expectedAnswer": null,
+        "expectedTools": [],
+        "expectedSource": null,
+        "shouldRefuse": true
+    },
+    {
+        "id": "q019",
+        "category": "out_of_scope",
+        "question": "What is the capital of Japan?",
+        "expectedAnswer": null,
+        "expectedTools": [],
+        "expectedSource": null,
+        "shouldRefuse": true
+    },
+    {
+        "id": "q020",
+        "category": "out_of_scope",
+        "question": "What is the latest price of Bitcoin?",
+        "expectedAnswer": null,
+        "expectedTools": [],
+        "expectedSource": null,
+        "shouldRefuse": true
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": "rag001",
+        "question": "What is the refund period?",
+        "expectedSource": "refund-policy.txt",
+        "expectedAnswer": "Customers can request a refund within 30 days."
+    },
+    {
+        "id": "rag002",
+        "question": "How long are refunds normally processed?",
+        "expectedSource": "refund-policy.txt",
+        "expectedAnswer": "Approved refunds are normally processed within 5 business days."
+    },
+    {
+        "id": "rag003",
+        "question": "What is the maximum performance bonus?",
+        "expectedSource": "bonus-policy.txt",
+        "expectedAnswer": "The performance bonus can be up to 10% of eligible salary."
+    },
+    {
+        "id": "rag004",
+        "question": "What is the annual leave policy?",
+        "expectedSource": "leave-policy.txt",
+        "expectedAnswer": "Employees receive 20 days of annual leave per year."
+    },
+    {
+        "id": "rag005",
+        "question": "Who can receive the performance bonus?",
+        "expectedSource": "bonus-policy.txt",
+        "expectedAnswer": "Eligible employees can receive the performance bonus according to the bonus policy."
+    }
+]
