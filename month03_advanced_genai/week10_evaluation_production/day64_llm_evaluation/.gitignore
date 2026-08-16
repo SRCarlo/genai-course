@@ -1,0 +1,9 @@
+node_modules/
+.env
+.DS_Store
+
+results/evaluation-report.json
+results/evaluation-v1.json
+results/evaluation-v2.json
+
+*.log
