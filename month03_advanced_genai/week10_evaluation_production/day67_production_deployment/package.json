@@ -1,0 +1,31 @@
+{
+  "name": "day67-production-deployment",
+  "version": "1.0.0",
+  "description": "Production-ready Node.js GenAI API using Groq",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "genai",
+    "groq",
+    "nodejs",
+    "production",
+    "express"
+  ],
+  "author": "Shubham Raut",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.6.2",
+    "groq-sdk": "^1.5.0",
+    "helmet": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
