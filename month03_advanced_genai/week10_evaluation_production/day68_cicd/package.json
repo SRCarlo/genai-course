@@ -1,0 +1,30 @@
+{
+  "name": "day68-cicd",
+  "version": "1.0.0",
+  "description": "Day 68 - CI/CD for GenAI applications",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "test:security": "node scripts/security-test.js",
+    "evaluate": "node scripts/evaluate.js"
+  },
+  "keywords": [
+    "genai",
+    "cicd",
+    "github-actions",
+    "nodejs",
+    "groq"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
