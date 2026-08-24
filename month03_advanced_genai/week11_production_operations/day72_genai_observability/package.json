@@ -1,0 +1,38 @@
+{
+  "name": "day72-genai-observability",
+  "version": "1.0.0",
+  "description": "Day 72 production GenAI observability with Groq and OpenTelemetry",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --import ./src/instrumentation.js ./src/server.js",
+    "dev": "nodemon --exec \"node --import ./src/instrumentation.js ./src/server.js\"",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "genai",
+    "groq",
+    "observability",
+    "opentelemetry",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.1",
+    "@opentelemetry/auto-instrumentations-node": "^0.79.0",
+    "@opentelemetry/resources": "^2.10.0",
+    "@opentelemetry/sdk-metrics": "^2.10.0",
+    "@opentelemetry/sdk-node": "^0.221.0",
+    "@opentelemetry/sdk-trace-node": "^2.10.0",
+    "@opentelemetry/semantic-conventions": "^1.43.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}
