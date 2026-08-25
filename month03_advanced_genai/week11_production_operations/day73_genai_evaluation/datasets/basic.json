@@ -1,0 +1,27 @@
+[
+    {
+        "id": "q001",
+        "question": "What is Node.js?",
+        "expectedAnswer": "Node.js is a JavaScript runtime that allows JavaScript to run outside the browser."
+    },
+    {
+        "id": "q002",
+        "question": "What is an API?",
+        "expectedAnswer": "An API is an interface that allows software systems to communicate with each other."
+    },
+    {
+        "id": "q003",
+        "question": "What is HTTP 404?",
+        "expectedAnswer": "HTTP 404 means that the requested resource could not be found."
+    },
+    {
+        "id": "q004",
+        "question": "What is Express.js?",
+        "expectedAnswer": "Express.js is a web application framework for Node.js."
+    },
+    {
+        "id": "q005",
+        "question": "What is JSON?",
+        "expectedAnswer": "JSON is a lightweight text format commonly used for exchanging structured data."
+    }
+]

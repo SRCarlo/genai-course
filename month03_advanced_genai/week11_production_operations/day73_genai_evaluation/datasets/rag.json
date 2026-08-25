@@ -1,0 +1,20 @@
+[
+    {
+        "id": "rag001",
+        "question": "What is the refund policy?",
+        "relevantDocuments": [
+            "refund-policy.md"
+        ],
+        "context": "Customers can request a refund within 30 days of purchase. Refund requests after 30 days are not eligible.",
+        "expectedAnswer": "Customers can request a refund within 30 days."
+    },
+    {
+        "id": "rag002",
+        "question": "How can I reset my password?",
+        "relevantDocuments": [
+            "password-reset.md"
+        ],
+        "context": "Users can reset their password by selecting Forgot Password on the login page and following the instructions sent to their email.",
+        "expectedAnswer": "Users can reset their password by selecting Forgot Password on the login page."
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "id": "reg001",
+        "question": "Explain our refund policy.",
+        "expectedAnswer": "Customers can request a refund within 30 days."
+    },
+    {
+        "id": "reg002",
+        "question": "How can I reset my password?",
+        "expectedAnswer": "Users can reset their password by selecting Forgot Password on the login page."
+    },
+    {
+        "id": "reg003",
+        "question": "What is Node.js?",
+        "expectedAnswer": "Node.js is a JavaScript runtime that allows JavaScript to run outside the browser."
+    },
+    {
+        "id": "reg004",
+        "question": "What is HTTP 404?",
+        "expectedAnswer": "HTTP 404 means that the requested resource could not be found."
+    }
+]
