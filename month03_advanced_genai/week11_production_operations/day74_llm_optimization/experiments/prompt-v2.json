@@ -1,0 +1,10 @@
+{
+  "promptVersion": "v2",
+  "dataset": "benchmark-v1",
+  "model": "openai/gpt-oss-20b",
+  "temperature": 0.3,
+  "quality": null,
+  "averageLatency": null,
+  "cost": null,
+  "status": "pending"
+}
