@@ -1,0 +1,52 @@
+[
+    {
+        "id": "b001",
+        "input": "What is Express.js?",
+        "expected": "Express.js is a web framework for Node.js."
+    },
+    {
+        "id": "b002",
+        "input": "What is middleware?",
+        "expected": "Middleware is software that runs during request processing."
+    },
+    {
+        "id": "b003",
+        "input": "What is REST?",
+        "expected": "REST is an architectural style for networked applications."
+    },
+    {
+        "id": "b004",
+        "input": "What is an API?",
+        "expected": "An API is an interface that allows software systems to communicate."
+    },
+    {
+        "id": "b005",
+        "input": "What is JSON?",
+        "expected": "JSON is a lightweight data format commonly used for exchanging structured data."
+    },
+    {
+        "id": "b006",
+        "input": "What is HTTP?",
+        "expected": "HTTP is a protocol used for communication between clients and servers on the web."
+    },
+    {
+        "id": "b007",
+        "input": "What is a database?",
+        "expected": "A database is a system for storing and managing data."
+    },
+    {
+        "id": "b008",
+        "input": "What is caching?",
+        "expected": "Caching stores frequently used data so it can be retrieved faster."
+    },
+    {
+        "id": "b009",
+        "input": "What is authentication?",
+        "expected": "Authentication verifies the identity of a user or system."
+    },
+    {
+        "id": "b010",
+        "input": "What is authorization?",
+        "expected": "Authorization determines what an authenticated user or system is allowed to access."
+    }
+]
