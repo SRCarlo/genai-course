@@ -1,0 +1,24 @@
+{
+  "name": "day75-advanced-rag",
+  "version": "1.0.0",
+  "description": "Day 75 - Advanced RAG with hybrid search, reranking and query transformation",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test",
+    "evaluate": "node src/evaluation/retrieval-evaluator.js"
+  },
+  "keywords": [],
+  "author": "SRCarlo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
