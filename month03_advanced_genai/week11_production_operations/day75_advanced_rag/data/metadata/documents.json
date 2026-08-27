@@ -1,0 +1,62 @@
+[
+    {
+        "id": "doc_node_performance",
+        "title": "Node.js Performance Optimization",
+        "filename": "node-performance.md",
+        "metadata": {
+            "department": "engineering",
+            "year": 2026,
+            "language": "en",
+            "tenantId": "tenant_1",
+            "version": "v1"
+        }
+    },
+    {
+        "id": "doc_http_errors",
+        "title": "HTTP Errors",
+        "filename": "http-errors.md",
+        "metadata": {
+            "department": "engineering",
+            "year": 2026,
+            "language": "en",
+            "tenantId": "tenant_1",
+            "version": "v2"
+        }
+    },
+    {
+        "id": "doc_express_middleware",
+        "title": "Express Middleware",
+        "filename": "express-middleware.md",
+        "metadata": {
+            "department": "engineering",
+            "year": 2026,
+            "language": "en",
+            "tenantId": "tenant_1",
+            "version": "v1"
+        }
+    },
+    {
+        "id": "doc_postgres_errors",
+        "title": "PostgreSQL Errors",
+        "filename": "postgres-errors.md",
+        "metadata": {
+            "department": "database",
+            "year": 2026,
+            "language": "en",
+            "tenantId": "tenant_1",
+            "version": "v1"
+        }
+    },
+    {
+        "id": "doc_authentication",
+        "title": "Authentication and Authorization",
+        "filename": "authentication.md",
+        "metadata": {
+            "department": "security",
+            "year": 2026,
+            "language": "en",
+            "tenantId": "tenant_1",
+            "version": "v3"
+        }
+    }
+]
