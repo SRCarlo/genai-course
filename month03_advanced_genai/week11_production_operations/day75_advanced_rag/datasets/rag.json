@@ -1,0 +1,26 @@
+[
+    {
+        "id": "q001",
+        "query": "What does HTTP 429 mean?",
+        "expectedKeywords": [
+            "too many requests",
+            "retry-after"
+        ]
+    },
+    {
+        "id": "q002",
+        "query": "What is PostgreSQL error 23505?",
+        "expectedKeywords": [
+            "unique_violation",
+            "duplicate"
+        ]
+    },
+    {
+        "id": "q003",
+        "query": "What is the difference between authentication and authorization?",
+        "expectedKeywords": [
+            "identity",
+            "permission"
+        ]
+    }
+]

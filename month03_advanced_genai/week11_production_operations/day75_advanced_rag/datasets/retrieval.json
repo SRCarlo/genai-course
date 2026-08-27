@@ -1,0 +1,51 @@
+[
+    {
+        "id": "r001",
+        "query": "What is HTTP 429?",
+        "relevantDocuments": [
+            "doc_http_errors"
+        ]
+    },
+    {
+        "id": "r002",
+        "query": "What does Retry-After mean?",
+        "relevantDocuments": [
+            "doc_http_errors"
+        ]
+    },
+    {
+        "id": "r003",
+        "query": "How can I improve Node.js performance?",
+        "relevantDocuments": [
+            "doc_node_performance"
+        ]
+    },
+    {
+        "id": "r004",
+        "query": "How do I use Express middleware?",
+        "relevantDocuments": [
+            "doc_express_middleware"
+        ]
+    },
+    {
+        "id": "r005",
+        "query": "What PostgreSQL error means unique violation?",
+        "relevantDocuments": [
+            "doc_postgres_errors"
+        ]
+    },
+    {
+        "id": "r006",
+        "query": "What is PostgreSQL error 23505?",
+        "relevantDocuments": [
+            "doc_postgres_errors"
+        ]
+    },
+    {
+        "id": "r007",
+        "query": "What is the difference between authentication and authorization?",
+        "relevantDocuments": [
+            "doc_authentication"
+        ]
+    }
+]
