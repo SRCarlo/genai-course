@@ -1,0 +1,10 @@
+{
+    "strategy": "hybrid-reranker",
+    "description": "Hybrid retrieval followed by Groq reranking",
+    "retrievalK": 10,
+    "finalK": 5,
+    "recall": null,
+    "precision": null,
+    "mrr": null,
+    "latencyMs": null
+}

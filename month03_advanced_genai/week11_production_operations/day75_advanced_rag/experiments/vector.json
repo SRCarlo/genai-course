@@ -1,0 +1,9 @@
+{
+    "strategy": "vector",
+    "description": "Local TF-IDF vector retrieval",
+    "topK": 10,
+    "recall": null,
+    "precision": null,
+    "mrr": null,
+    "latencyMs": null
+}
