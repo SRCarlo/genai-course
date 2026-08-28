@@ -1,0 +1,38 @@
+[
+    {
+        "id": "a001",
+        "task": "Find the refund policy",
+        "expectedTools": [
+            "searchKnowledgeBase"
+        ]
+    },
+    {
+        "id": "a002",
+        "task": "Calculate 20% of 50000",
+        "expectedTools": [
+            "calculator"
+        ]
+    },
+    {
+        "id": "a003",
+        "task": "Find the order status for ORD-123",
+        "expectedTools": [
+            "getOrder"
+        ]
+    },
+    {
+        "id": "a004",
+        "task": "Check order ORD-123 and determine whether the refund policy applies",
+        "expectedTools": [
+            "getOrder",
+            "searchKnowledgeBase"
+        ]
+    },
+    {
+        "id": "a005",
+        "task": "Calculate 15% of 85000",
+        "expectedTools": [
+            "calculator"
+        ]
+    }
+]
