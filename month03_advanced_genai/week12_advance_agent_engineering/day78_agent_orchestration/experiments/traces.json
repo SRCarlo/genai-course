@@ -1,0 +1,30 @@
+{
+    "traces": [
+        {
+            "requestId": "example-request",
+            "events": [
+                {
+                    "type": "agent.started"
+                },
+                {
+                    "type": "plan.created"
+                },
+                {
+                    "type": "agent.tool_requested",
+                    "tool": "getOrder"
+                },
+                {
+                    "type": "agent.tool_completed",
+                    "tool": "getOrder",
+                    "success": true
+                },
+                {
+                    "type": "agent.checkpoint_created"
+                },
+                {
+                    "type": "agent.completed"
+                }
+            ]
+        }
+    ]
+}
