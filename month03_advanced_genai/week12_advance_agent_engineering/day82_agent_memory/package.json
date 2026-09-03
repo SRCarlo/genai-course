@@ -1,0 +1,23 @@
+{
+  "name": "day82_agent_memory",
+  "version": "1.0.0",
+  "description": "Day 82 - Production Agent Memory and Long-Term Memory Architecture",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "SRCarlo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
