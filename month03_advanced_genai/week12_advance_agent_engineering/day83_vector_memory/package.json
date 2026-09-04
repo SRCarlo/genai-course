@@ -1,0 +1,20 @@
+{
+  "name": "day83_vector_memory",
+  "version": "1.0.0",
+  "description": "Day 83 - Vector Memory, Embeddings and Semantic Memory Retrieval",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "SRCarlo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  }
+}
