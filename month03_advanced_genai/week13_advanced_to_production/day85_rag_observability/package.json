@@ -1,0 +1,25 @@
+{
+  "name": "day85_rag_observability",
+  "version": "1.0.0",
+  "description": "Day 85 RAG Evaluation, Observability and Production Quality Engineering",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "node src/app.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "evaluation": "node src/evaluation/evaluation.runner.js"
+  },
+  "keywords": [],
+  "author": "SRCarlo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.0"
+  }
+}
