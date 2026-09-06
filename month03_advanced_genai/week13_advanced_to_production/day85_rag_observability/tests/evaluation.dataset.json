@@ -1,0 +1,82 @@
+[
+  {
+    "id": "q001",
+    "question": "What does HTTP 429 mean?",
+    "relevantDocuments": [
+      "http-errors.md"
+    ],
+    "expectedAnswer": "HTTP 429 means Too Many Requests."
+  },
+  {
+    "id": "q002",
+    "question": "What does HTTP 401 mean?",
+    "relevantDocuments": [
+      "http-errors.md"
+    ],
+    "expectedAnswer": "HTTP 401 means Unauthorized."
+  },
+  {
+    "id": "q003",
+    "question": "What does HTTP 404 mean?",
+    "relevantDocuments": [
+      "http-errors.md"
+    ],
+    "expectedAnswer": "HTTP 404 means Not Found."
+  },
+  {
+    "id": "q004",
+    "question": "What is a JWT?",
+    "relevantDocuments": [
+      "jwt-guide.md"
+    ],
+    "expectedAnswer": "JWT is a compact token format used for securely transmitting claims."
+  },
+  {
+    "id": "q005",
+    "question": "How does JWT refresh work?",
+    "relevantDocuments": [
+      "jwt-guide.md"
+    ],
+    "expectedAnswer": "A refresh token can be used to obtain a new access token."
+  },
+  {
+    "id": "q006",
+    "question": "What is OAuth?",
+    "relevantDocuments": [
+      "oauth-guide.md"
+    ],
+    "expectedAnswer": "OAuth is an authorization framework."
+  },
+  {
+    "id": "q007",
+    "question": "What is Node.js?",
+    "relevantDocuments": [
+      "node-basics.md"
+    ],
+    "expectedAnswer": "Node.js is a JavaScript runtime built on Chrome's V8 engine."
+  },
+  {
+    "id": "q008",
+    "question": "What does an Express route contain?",
+    "relevantDocuments": [
+      "express-routing.md"
+    ],
+    "expectedAnswer": "An Express route commonly contains an HTTP method, a path and a callback function."
+  },
+  {
+    "id": "q009",
+    "question": "Why are database indexes useful?",
+    "relevantDocuments": [
+      "database-indexing.md"
+    ],
+    "expectedAnswer": "Database indexes improve lookup performance."
+  },
+  {
+    "id": "q010",
+    "question": "What should production applications monitor?",
+    "relevantDocuments": [
+      "deployment.md"
+    ],
+    "expectedAnswer": "Production systems should monitor latency, error rates and resource consumption."
+  }
+]
