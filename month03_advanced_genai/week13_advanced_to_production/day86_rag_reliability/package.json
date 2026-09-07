@@ -1,0 +1,32 @@
+{
+  "name": "day86_rag_reliability",
+  "version": "1.0.0",
+  "description": "Production-grade RAG Reliability Gateway using Groq AI and GPT-OSS 20B",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "rag",
+    "groq",
+    "groq-ai",
+    "gpt-oss",
+    "generative-ai",
+    "nodejs",
+    "express",
+    "guardrails",
+    "prompt-injection",
+    "ai-security",
+    "llm"
+  ],
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "groq-sdk": "^1.6.0",
+    "zod": "^4.5.4"
+  }
+}
