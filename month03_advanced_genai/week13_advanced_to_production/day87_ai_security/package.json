@@ -1,0 +1,21 @@
+{
+  "name": "day87-ai-security",
+  "version": "1.0.0",
+  "description": "Production-oriented AI Security Gateway with Groq GPT-OSS 20B",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "groq-sdk": "^0.15.0",
+    "zod": "^3.24.2"
+  }
+}
