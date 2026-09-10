@@ -1,0 +1,31 @@
+{
+  "name": "day89_secure_tool_runtime",
+  "version": "1.0.0",
+  "description": "Secure AI Agent Tool Calling Runtime using Node.js, Express, Zod and Groq AI",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai-agent",
+    "tool-calling",
+    "function-calling",
+    "groq",
+    "gpt-oss-20b",
+    "nodejs",
+    "express",
+    "zod",
+    "security"
+  ],
+  "author": "SRCarlo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0",
+    "zod": "^4.6.1"
+  }
+}
