@@ -1,0 +1,31 @@
+{
+  "name": "day90_agent_execution",
+  "version": "1.0.0",
+  "description": "Day 90 - Advanced AI Agent Execution, Planning and State Management using Groq GPT-OSS 20B",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": [
+    "ai-agent",
+    "generative-ai",
+    "groq",
+    "gpt-oss-20b",
+    "agent-runtime",
+    "tool-calling",
+    "nodejs",
+    "zod"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0",
+    "zod": "^4.6.2"
+  }
+}
