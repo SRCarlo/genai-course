@@ -1,0 +1,18 @@
+{
+  "name": "day91-production-agent-workflows",
+  "version": "1.0.0",
+  "description": "Day 91 production-style AI workflow with checkpoints, retries, idempotency, human approval, background jobs, and Groq GPT-OSS 20B.",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.37.0",
+    "uuid": "^11.1.0"
+  }
+}
