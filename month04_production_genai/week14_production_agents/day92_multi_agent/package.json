@@ -1,0 +1,24 @@
+{
+  "name": "day92_multi_agent",
+  "version": "1.0.0",
+   "description": "Day 92 Multi-Agent Research Assistant using Groq AI",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js --runInBand"
+  },
+  "keywords": [],
+  "author": "SRCarlo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0",
+    "zod": "^4.6.4"
+  },
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
