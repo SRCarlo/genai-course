@@ -1,0 +1,65 @@
+[
+  {
+    "id": "001",
+    "input": "What is Node.js?",
+    "category": "basic",
+    "expected": {
+      "requiredTerms": [
+        "JavaScript",
+        "runtime"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "002",
+    "input": "What is Express.js?",
+    "category": "basic",
+    "expected": {
+      "requiredTerms": [
+        "Node.js",
+        "framework"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "003",
+    "input": "What is an API?",
+    "category": "basic",
+    "expected": {
+      "requiredTerms": [
+        "interface"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "004",
+    "input": "What is JSON?",
+    "category": "basic",
+    "expected": {
+      "requiredTerms": [
+        "data",
+        "format"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  }
+]

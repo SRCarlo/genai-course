@@ -1,0 +1,62 @@
+[
+  {
+    "id": "005",
+    "input": "Explain Node.js in one sentence.",
+    "category": "edge",
+    "expected": {
+      "requiredTerms": [
+        "Node.js"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "006",
+    "input": "What is middleware?",
+    "category": "edge",
+    "expected": {
+      "requiredTerms": [
+        "middleware"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "007",
+    "input": "What does HTTP 404 mean?",
+    "category": "edge",
+    "expected": {
+      "requiredTerms": [
+        "404"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "008",
+    "input": "What is asynchronous programming?",
+    "category": "edge",
+    "expected": {
+      "requiredTerms": [
+        "asynchronous"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  }
+]

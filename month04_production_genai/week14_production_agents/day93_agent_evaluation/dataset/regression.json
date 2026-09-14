@@ -1,0 +1,62 @@
+[
+  {
+    "id": "017",
+    "input": "What is Node.js?",
+    "category": "regression",
+    "expected": {
+      "requiredTerms": [
+        "runtime"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "018",
+    "input": "What is Express.js?",
+    "category": "regression",
+    "expected": {
+      "requiredTerms": [
+        "framework"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "019",
+    "input": "What is an API?",
+    "category": "regression",
+    "expected": {
+      "requiredTerms": [
+        "interface"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "020",
+    "input": "What is JSON?",
+    "category": "regression",
+    "expected": {
+      "requiredTerms": [
+        "format"
+      ],
+      "forbiddenTerms": [],
+      "expectedTool": null,
+      "expectedToolArgs": null,
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  }
+]

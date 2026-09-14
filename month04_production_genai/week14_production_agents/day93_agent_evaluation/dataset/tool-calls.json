@@ -1,0 +1,62 @@
+[
+  {
+    "id": "009",
+    "input": "Get the status of order 1001.",
+    "category": "tool_usage",
+    "expected": {
+      "requiredTerms": [],
+      "forbiddenTerms": [],
+      "expectedTool": "getOrderStatus",
+      "expectedToolArgs": {
+        "orderId": "1001"
+      },
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "010",
+    "input": "Please check order 1002 status.",
+    "category": "tool_usage",
+    "expected": {
+      "requiredTerms": [],
+      "forbiddenTerms": [],
+      "expectedTool": "getOrderStatus",
+      "expectedToolArgs": {
+        "orderId": "1002"
+      },
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "011",
+    "input": "Get order 1003 status for me.",
+    "category": "tool_usage",
+    "expected": {
+      "requiredTerms": [],
+      "forbiddenTerms": [],
+      "expectedTool": "getOrderStatus",
+      "expectedToolArgs": {
+        "orderId": "1003"
+      },
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  },
+  {
+    "id": "012",
+    "input": "Search the documentation for Node.js.",
+    "category": "tool_usage",
+    "expected": {
+      "requiredTerms": [],
+      "forbiddenTerms": [],
+      "expectedTool": "searchDocumentation",
+      "expectedToolArgs": {
+        "query": "Node.js"
+      },
+      "mustRefuse": false,
+      "requiredFields": []
+    }
+  }
+]
