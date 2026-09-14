@@ -1,0 +1,17 @@
+{
+  "name": "day93-agent-evaluation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "evaluate": "node src/evaluation/run.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1",
+    "groq-sdk": "^0.37.0",
+    "zod": "^3.25.76"
+  }
+}
