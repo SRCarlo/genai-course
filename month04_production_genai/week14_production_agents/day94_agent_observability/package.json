@@ -1,0 +1,17 @@
+{
+  "name": "day94-agent-observability",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "server": "node src/server.js",
+    "test": "node --test",
+    "demo": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  }
+}
