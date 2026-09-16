@@ -1,0 +1,32 @@
+[
+  {
+    "id": "case-001",
+    "input": "What is the status of ORD-1001?",
+    "expectedTool": "getOrder"
+  },
+  {
+    "id": "case-002",
+    "input": "What is the refund policy?",
+    "expectedTool": "searchKnowledge"
+  },
+  {
+    "id": "case-003",
+    "input": "Find customer CUST-001",
+    "expectedTool": "getCustomer"
+  },
+  {
+    "id": "case-004",
+    "input": "How long does shipping take?",
+    "expectedTool": "searchKnowledge"
+  },
+  {
+    "id": "case-005",
+    "input": "Show me order ORD-1002",
+    "expectedTool": "getOrder"
+  },
+  {
+    "id": "case-006",
+    "input": "Tell me about customer CUST-002",
+    "expectedTool": "getCustomer"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "reg-001",
+    "input": "What is the status of ORD-1001?",
+    "expectedTool": "getOrder",
+    "bug": "Previously selected knowledge search for order requests"
+  },
+  {
+    "id": "reg-002",
+    "input": "Find customer CUST-001",
+    "expectedTool": "getCustomer",
+    "bug": "Customer lookup was routed to generic search"
+  },
+  {
+    "id": "reg-003",
+    "input": "What is the refund policy?",
+    "expectedTool": "searchKnowledge",
+    "bug": "Policy questions were incorrectly routed to order tool"
+  }
+]
