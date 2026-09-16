@@ -1,0 +1,20 @@
+{
+  "name": "day95-production-ai-agent",
+  "version": "1.0.0",
+  "description": "Day 95 Production AI Support Agent using Groq and openai/gpt-oss-20b",
+  "type": "module",
+  "main": "src/api/server.js",
+  "scripts": {
+    "start": "node src/api/server.js",
+    "dev": "node --watch src/api/server.js",
+    "test": "node --test tests/*.test.js",
+    "evaluate": "node src/evaluation/evaluator.js",
+    "lint": "node --check src/api/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0",
+    "zod": "^4.6.5"
+  }
+}
