@@ -1,0 +1,28 @@
+{
+  "name": "day98-postgres-pgvector-rag",
+  "version": "1.0.0",
+  "description": "Day 98 production-style RAG with PostgreSQL, pgvector, async ingestion and Groq GPT-OSS 20B",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "db:migrate": "node src/infrastructure/database/run-migration.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.0",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0",
+    "pg": "^8.23.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "allowScripts": {
+    "onnxruntime-node@1.30.0": true,
+    "protobufjs@7.6.6": true
+  }
+}
