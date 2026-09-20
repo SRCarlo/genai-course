@@ -1,0 +1,32 @@
+[
+  {
+    "question": "How do I reset my password?",
+    "relevantDocuments": [
+      "auth-password-reset"
+    ]
+  },
+  {
+    "question": "Why am I receiving HTTP 401?",
+    "relevantDocuments": [
+      "http-401"
+    ]
+  },
+  {
+    "question": "How does OAuth work?",
+    "relevantDocuments": [
+      "oauth-guide"
+    ]
+  },
+  {
+    "question": "What does HTTP 429 mean?",
+    "relevantDocuments": [
+      "api-rate-limit"
+    ]
+  },
+  {
+    "question": "Why is my database timing out?",
+    "relevantDocuments": [
+      "database-timeout"
+    ]
+  }
+]
