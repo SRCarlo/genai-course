@@ -1,0 +1,23 @@
+{
+  "name": "day99-hybrid-rag",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Day 99 Production RAG using Groq GPT-OSS 20B",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "eval": "node evaluation/run.evaluation.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "vitest": "^5.0.1"
+  }
+}
