@@ -1,0 +1,31 @@
+{
+  "name": "day100-rag-evaluation",
+  "version": "1.0.0",
+  "description": "Day 100 production RAG evaluation, observability and continuous improvement project using Groq GPT-OSS 20B.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "evaluate": "node evaluation/evaluator.js",
+    "evaluate:judge": "node evaluation/evaluator.js --judge",
+    "quality": "node evaluation/evaluator.js --quality-gate",
+    "quality:judge": "node evaluation/evaluator.js --judge --quality-gate"
+  },
+  "keywords": [
+    "rag",
+    "retrieval",
+    "evaluation",
+    "groq",
+    "llm",
+    "observability",
+    "production-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "express": "^5.1.0",
+    "groq-sdk": "^1.6.0"
+  }
+}
