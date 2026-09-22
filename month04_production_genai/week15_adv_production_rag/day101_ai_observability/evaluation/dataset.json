@@ -1,0 +1,22 @@
+[
+  {
+    "id": "eval-001",
+    "question": "What is RAG?",
+    "expectedTopic": "Retrieval Augmented Generation"
+  },
+  {
+    "id": "eval-002",
+    "question": "What are the three pillars of observability?",
+    "expectedTopic": "logs metrics traces"
+  },
+  {
+    "id": "eval-003",
+    "question": "What is an SLO?",
+    "expectedTopic": "service level objective"
+  },
+  {
+    "id": "eval-004",
+    "question": "Why do we use request IDs?",
+    "expectedTopic": "correlate logs traces errors"
+  }
+]
