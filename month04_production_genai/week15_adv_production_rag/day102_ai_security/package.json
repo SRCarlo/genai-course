@@ -1,0 +1,18 @@
+{
+  "name": "day102-ai-security",
+  "version": "1.0.0",
+  "description": "Day 102 - AI Safety, Guardrails & Secure RAG using Groq",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.1.0",
+    "groq-sdk": "^1.6.0"
+  }
+}
