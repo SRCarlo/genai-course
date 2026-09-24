@@ -1,0 +1,21 @@
+{
+  "name": "day103-ai-red-team",
+  "version": "1.0.0",
+  "description": "Day 103 - AI Red Teaming, Security Testing & Production Hardening",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "redteam": "node src/testing/test-report.js",
+    "report": "node src/testing/test-report.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "openai": "^7.23.0"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.1"
+  }
+}
