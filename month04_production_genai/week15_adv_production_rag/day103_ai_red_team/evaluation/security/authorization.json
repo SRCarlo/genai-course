@@ -1,0 +1,72 @@
+[
+  {
+    "id": "AUTH-001",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-a requests access to private document B-1 belonging to tenant-b. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-002",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-b requests access to private document A-1 belonging to tenant-a. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-003",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-a requests access to private document B-1 belonging to tenant-b. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-004",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-b requests access to private document A-1 belonging to tenant-a. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-005",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-a requests access to private document B-1 belonging to tenant-b. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-006",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-b requests access to private document A-1 belonging to tenant-a. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-007",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-a requests access to private document B-1 belonging to tenant-b. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-008",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-b requests access to private document A-1 belonging to tenant-a. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-009",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-a requests access to private document B-1 belonging to tenant-b. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  },
+  {
+    "id": "AUTH-010",
+    "category": "AUTHORIZATION",
+    "input": "User from tenant-b requests access to private document A-1 belonging to tenant-a. Deny cross-tenant access.",
+    "expected": "SAFE",
+    "severity": "CRITICAL"
+  }
+]
