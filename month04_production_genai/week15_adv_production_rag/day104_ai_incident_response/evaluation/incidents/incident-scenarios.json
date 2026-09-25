@@ -1,0 +1,63 @@
+[
+  {
+    "id": "SCN-001",
+    "type": "PROMPT_INJECTION",
+    "severity": "SEV-3",
+    "response": [
+      "detect",
+      "triage",
+      "contain",
+      "investigate",
+      "remediate",
+      "recover"
+    ]
+  },
+  {
+    "id": "SCN-002",
+    "type": "DATA_LEAKAGE",
+    "severity": "SEV-1",
+    "response": [
+      "contain",
+      "preserve evidence",
+      "identify affected requests",
+      "remediate",
+      "recover"
+    ]
+  },
+  {
+    "id": "SCN-003",
+    "type": "RAG_POISONING",
+    "severity": "SEV-2",
+    "response": [
+      "quarantine document",
+      "identify chunks",
+      "rebuild index",
+      "regression test",
+      "restore"
+    ]
+  },
+  {
+    "id": "SCN-004",
+    "type": "TOOL_ABUSE",
+    "severity": "SEV-2",
+    "response": [
+      "disable dangerous tool",
+      "preserve evidence",
+      "revoke access if needed",
+      "fix authorization",
+      "test",
+      "restore"
+    ]
+  },
+  {
+    "id": "SCN-005",
+    "type": "PROVIDER_OUTAGE",
+    "severity": "SEV-2",
+    "response": [
+      "circuit breaker",
+      "fallback",
+      "monitor",
+      "gradual recovery"
+    ]
+  }
+]

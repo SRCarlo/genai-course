@@ -1,0 +1,11 @@
+{
+  "id": "INC-2026-001",
+  "type": "TENANT_ISOLATION_FAILURE",
+  "severity": "SEV-1",
+  "status": "OPEN",
+  "detectedAt": "2026-09-25T08:00:00Z",
+  "requestId": "req-demo-456",
+  "message": "Tenant A accessed a document belonging to Tenant B.",
+  "affectedSystem": "RAG retrieval",
+  "active": true
+}
