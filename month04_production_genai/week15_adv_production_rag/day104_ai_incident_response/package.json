@@ -1,0 +1,18 @@
+{
+  "name": "day104-ai-incident-response",
+  "version": "1.0.0",
+  "description": "Day 104 - AI Security Incident Response & Production Resilience",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node src/index.js",
+    "server": "node src/server.js",
+    "analyze": "node src/ai/analyze-incident.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  }
+}
