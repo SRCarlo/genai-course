@@ -1,0 +1,132 @@
+[
+  {
+    "riskId": "RISK-001",
+    "systemId": "AI-001",
+    "category": "DATA_PRIVACY",
+    "impact": 4,
+    "likelihood": 2,
+    "score": 8,
+    "level": "MEDIUM",
+    "status": "OPEN",
+    "mitigation": [
+      "Minimize data and enforce approved classifications."
+    ]
+  },
+  {
+    "riskId": "RISK-002",
+    "systemId": "AI-001",
+    "category": "SECURITY",
+    "impact": 4,
+    "likelihood": 2,
+    "score": 8,
+    "level": "MEDIUM",
+    "status": "OPEN",
+    "mitigation": [
+      "Run security testing and protect API credentials."
+    ]
+  },
+  {
+    "riskId": "RISK-003",
+    "systemId": "AI-001",
+    "category": "HALLUCINATION",
+    "impact": 3,
+    "likelihood": 3,
+    "score": 9,
+    "level": "HIGH",
+    "status": "OPEN",
+    "mitigation": [
+      "Use RAG citations and evaluation tests."
+    ]
+  },
+  {
+    "riskId": "RISK-004",
+    "systemId": "AI-001",
+    "category": "AUTHORIZATION",
+    "impact": 4,
+    "likelihood": 2,
+    "score": 8,
+    "level": "MEDIUM",
+    "status": "OPEN",
+    "mitigation": [
+      "Enforce server-side authorization before data access."
+    ]
+  },
+  {
+    "riskId": "RISK-005",
+    "systemId": "AI-001",
+    "category": "DATA_LEAKAGE",
+    "impact": 4,
+    "likelihood": 2,
+    "score": 8,
+    "level": "MEDIUM",
+    "status": "MITIGATED",
+    "mitigation": [
+      "Tenant isolation, redaction and access controls."
+    ]
+  },
+  {
+    "riskId": "RISK-006",
+    "systemId": "AI-001",
+    "category": "RAG_POISONING",
+    "impact": 4,
+    "likelihood": 2,
+    "score": 8,
+    "level": "MEDIUM",
+    "status": "OPEN",
+    "mitigation": [
+      "Validate and review indexed documents."
+    ]
+  },
+  {
+    "riskId": "RISK-007",
+    "systemId": "AI-001",
+    "category": "TOOL_ABUSE",
+    "impact": 4,
+    "likelihood": 1,
+    "score": 4,
+    "level": "LOW",
+    "status": "MITIGATED",
+    "mitigation": [
+      "Keep tools disabled unless explicitly approved."
+    ]
+  },
+  {
+    "riskId": "RISK-008",
+    "systemId": "AI-001",
+    "category": "AVAILABILITY",
+    "impact": 3,
+    "likelihood": 2,
+    "score": 6,
+    "level": "MEDIUM",
+    "status": "OPEN",
+    "mitigation": [
+      "Timeouts, retries, fallback and provider monitoring."
+    ]
+  },
+  {
+    "riskId": "RISK-009",
+    "systemId": "AI-001",
+    "category": "COST",
+    "impact": 3,
+    "likelihood": 2,
+    "score": 6,
+    "level": "MEDIUM",
+    "status": "OPEN",
+    "mitigation": [
+      "Token limits, usage monitoring and budgets."
+    ]
+  },
+  {
+    "riskId": "RISK-010",
+    "systemId": "AI-001",
+    "category": "COMPLIANCE",
+    "impact": 4,
+    "likelihood": 2,
+    "score": 8,
+    "level": "MEDIUM",
+    "status": "OPEN",
+    "mitigation": [
+      "Maintain policies, approvals and governance evidence."
+    ]
+  }
+]
