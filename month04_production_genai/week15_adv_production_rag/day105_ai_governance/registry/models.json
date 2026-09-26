@@ -1,0 +1,38 @@
+[
+  {
+    "modelId": "MODEL-001",
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "version": "v1",
+    "purpose": "Customer support and internal AI assistance",
+    "status": "APPROVED",
+    "approvedFor": ["CUSTOMER_SUPPORT", "INTERNAL_KNOWLEDGE"],
+    "securityReview": "PASSED",
+    "evaluationStatus": "PASSED",
+    "lastReviewedAt": "2026-09-26T00:00:00.000Z"
+  },
+  {
+    "modelId": "MODEL-002",
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "version": "v2-evaluation",
+    "purpose": "Model change evaluation",
+    "status": "PENDING_APPROVAL",
+    "approvedFor": [],
+    "securityReview": "PENDING",
+    "evaluationStatus": "PASSED",
+    "lastReviewedAt": "2026-09-26T00:00:00.000Z"
+  },
+  {
+    "modelId": "MODEL-003",
+    "provider": "Groq",
+    "model": "openai/gpt-oss-20b",
+    "version": "v1-governance",
+    "purpose": "Governance documentation assistant",
+    "status": "APPROVED",
+    "approvedFor": ["GOVERNANCE_SUPPORT"],
+    "securityReview": "PASSED",
+    "evaluationStatus": "PASSED",
+    "lastReviewedAt": "2026-09-26T00:00:00.000Z"
+  }
+]
