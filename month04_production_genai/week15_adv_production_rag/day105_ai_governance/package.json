@@ -1,0 +1,17 @@
+{
+  "name": "day105-ai-governance",
+  "version": "1.0.0",
+  "description": "Day 105 - AI Governance, Compliance & Production AI Policies",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/governance/*.test.js",
+    "demo": "node src/index.js",
+    "groq": "node src/ai/groq-demo.js",
+    "server": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  }
+}
