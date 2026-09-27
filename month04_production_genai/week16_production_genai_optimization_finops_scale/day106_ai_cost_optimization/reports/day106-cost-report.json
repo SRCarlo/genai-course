@@ -1,0 +1,10 @@
+{
+  "period": "2026-09-27",
+  "requests": 0,
+  "inputTokens": 0,
+  "outputTokens": 0,
+  "totalCost": 0,
+  "cacheHitRate": 0,
+  "retryRate": 0,
+  "avgCostPerRequest": 0
+}
