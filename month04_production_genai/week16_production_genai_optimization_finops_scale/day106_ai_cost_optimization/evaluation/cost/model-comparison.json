@@ -1,0 +1,31 @@
+{
+  "note": "Replace these demo values with measurements from your own benchmark.",
+  "models": [
+    {
+      "name": "small-model",
+      "requests": 100,
+      "qualityScore": 0.82,
+      "avgLatencyMs": 900,
+      "costPerRequest": 0.001
+    },
+    {
+      "name": "medium-model",
+      "requests": 100,
+      "qualityScore": 0.91,
+      "avgLatencyMs": 1400,
+      "costPerRequest": 0.004
+    },
+    {
+      "name": "large-model",
+      "requests": 100,
+      "qualityScore": 0.96,
+      "avgLatencyMs": 2200,
+      "costPerRequest": 0.01
+    }
+  ],
+  "evaluationCriteria": [
+    "quality",
+    "latency",
+    "cost"
+  ]
+}

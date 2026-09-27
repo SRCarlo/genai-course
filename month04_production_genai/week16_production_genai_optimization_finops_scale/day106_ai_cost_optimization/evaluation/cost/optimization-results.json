@@ -1,0 +1,29 @@
+{
+  "note": "Demo values only. Replace with actual experiment measurements.",
+  "before": {
+    "model": "large-model",
+    "contextChunks": 10,
+    "contextTokens": 8000,
+    "cache": false,
+    "maxRetries": 3,
+    "costPerRequest": 0.01,
+    "qualityScore": 0.96,
+    "latencyMs": 2200
+  },
+  "after": {
+    "model": "openai/gpt-oss-20b",
+    "routing": true,
+    "contextChunks": 3,
+    "contextTokens": 4000,
+    "cache": true,
+    "maxRetries": 2,
+    "costPerRequest": 0.004,
+    "qualityScore": 0.94,
+    "latencyMs": 1500
+  },
+  "securityConsiderations": [
+    "Cache keys must include tenant/user authorization scope.",
+    "Do not blindly retry authorization, validation or policy errors.",
+    "Budget spikes can be treated as potential abuse signals."
+  ]
+}
