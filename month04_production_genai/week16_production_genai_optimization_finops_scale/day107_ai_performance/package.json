@@ -1,0 +1,23 @@
+{
+  "name": "day107-ai-performance",
+  "version": "1.0.0",
+  "description": "Day 107 - AI Performance Optimization & Latency Engineering using Groq GPT-OSS 20B",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "benchmark": "node scripts/benchmark.js",
+    "test": "node --test tests/performance/*.test.js",
+    "parallel-demo": "node scripts/parallel-demo.js",
+    "concurrency-test": "node scripts/concurrency-test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.1.0",
+    "groq-sdk": "^1.6.0"
+  }
+}
