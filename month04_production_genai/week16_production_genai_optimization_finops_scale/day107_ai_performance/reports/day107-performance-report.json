@@ -1,0 +1,8 @@
+{
+  "requests": 0,
+  "ttftMs": { "p50": null, "p95": null, "p99": null },
+  "totalLatencyMs": { "p50": null, "p95": null, "p99": null },
+  "throughputRps": null,
+  "errorRate": null,
+  "note": "Run npm run benchmark after configuring GROQ_API_KEY to populate measured values."
+}
