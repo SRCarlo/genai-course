@@ -1,0 +1,15 @@
+{
+  "requests": 10,
+  "concurrency": 2,
+  "maxCompletionTokens": 128,
+  "model": "openai/gpt-oss-20b",
+  "measure": [
+    "ttft",
+    "ttlt",
+    "p50",
+    "p95",
+    "p99",
+    "throughput",
+    "errorRate"
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "perf-001",
+    "type": "simple",
+    "query": "What is our refund policy?"
+  },
+  {
+    "id": "perf-002",
+    "type": "medium",
+    "query": "Summarize our customer support process in five bullet points."
+  },
+  {
+    "id": "perf-003",
+    "type": "complex",
+    "query": "Compare the main benefits and trade-offs of streaming, caching, and parallel retrieval for a production AI assistant."
+  }
+]
