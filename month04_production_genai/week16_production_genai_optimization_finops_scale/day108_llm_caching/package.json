@@ -1,0 +1,21 @@
+{
+  "name": "day108_llm_caching",
+  "version": "1.0.1",
+  "description": "Day 108 - LLM Caching and Intelligent Request Optimization",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/index.js",
+ "scripts": {
+  "test": "node --test",
+  "start": "node src/index.js",
+  "server": "node src/server.js",
+  "benchmark": "node evaluation/benchmark.js",
+  "benchmark:mock": "node evaluation/benchmark-mock.js"
+},
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "groq-sdk": "^1.6.0"
+  }
+}
