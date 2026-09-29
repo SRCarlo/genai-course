@@ -1,0 +1,38 @@
+{
+  "semanticCases": [
+    {
+      "id": "semantic-001",
+      "queryA": "What is your refund policy?",
+      "queryB": "Can I get a refund?",
+      "expected": "similar"
+    },
+    {
+      "id": "semantic-002",
+      "queryA": "What is your refund policy?",
+      "queryB": "How do I change my password?",
+      "expected": "different"
+    },
+    {
+      "id": "semantic-003",
+      "queryA": "How can I get my money back?",
+      "queryB": "Can I receive a refund?",
+      "expected": "similar"
+    }
+  ],
+  "securityCases": [
+    {
+      "id": "tenant-001",
+      "tenantA": "tenant-1",
+      "tenantB": "tenant-2",
+      "expected": "isolated"
+    }
+  ],
+  "versionCases": [
+    {
+      "id": "version-001",
+      "versionA": "v1",
+      "versionB": "v2",
+      "expected": "different-cache-keys"
+    }
+  ]
+}
