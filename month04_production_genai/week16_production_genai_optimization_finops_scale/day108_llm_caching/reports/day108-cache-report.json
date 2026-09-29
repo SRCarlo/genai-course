@@ -1,0 +1,60 @@
+{
+  "day": 108,
+  "title": "LLM Caching & Intelligent Request Optimization",
+  "status": "completed",
+  "benchmark": {
+    "type": "mock",
+    "totalRequests": 1000,
+    "uniqueQuestions": 100,
+    "mockLlmLatencyMs": 20,
+    "costPerLlmCall": 0.01,
+    "results": [
+      {
+        "strategy": "no-cache",
+        "totalRequests": 1000,
+        "llmCalls": 1000,
+        "cacheHits": 0,
+        "cacheMisses": 1000,
+        "cacheHitRate": 0,
+        "totalLatencyMs": 31179.16,
+        "p50LatencyMs": 31.26,
+        "p95LatencyMs": 33.42,
+        "estimatedCost": 10
+      },
+      {
+        "strategy": "exact-cache",
+        "totalRequests": 1000,
+        "llmCalls": 100,
+        "cacheHits": 900,
+        "cacheMisses": 100,
+        "cacheHitRate": 0.9,
+        "totalLatencyMs": 3136.18,
+        "p50LatencyMs": 0,
+        "p95LatencyMs": 31.13,
+        "estimatedCost": 1
+      },
+      {
+        "strategy": "deduplicated-cache",
+        "totalRequests": 1000,
+        "llmCalls": 100,
+        "cacheHits": 0,
+        "cacheMisses": 100,
+        "cacheHitRate": 0,
+        "totalLatencyMs": 45.05,
+        "p50LatencyMs": null,
+        "p95LatencyMs": null,
+        "estimatedCost": 1,
+        "note": "Requests sharing an in-flight promise are not counted as cache hits."
+      }
+    ]
+  },
+  "conclusion": {
+    "noCacheLlmCalls": 1000,
+    "exactCacheLlmCalls": 100,
+    "deduplicatedCacheLlmCalls": 100,
+    "estimatedCostWithoutCache": 10,
+    "estimatedCostWithExactCache": 1,
+    "estimatedCostWithDeduplication": 1,
+    "estimatedCostSavingsWithExactCache": 9
+  }
+}
