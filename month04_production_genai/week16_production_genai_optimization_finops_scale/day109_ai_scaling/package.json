@@ -1,0 +1,19 @@
+{
+  "name": "day109-ai-scaling",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/api/server.js",
+    "test": "node --test",
+    "baseline": "node load-tests/baseline.js",
+    "stress": "node load-tests/stress.js",
+    "spike": "node load-tests/spike.js",
+    "endurance": "node load-tests/endurance.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  }
+}
