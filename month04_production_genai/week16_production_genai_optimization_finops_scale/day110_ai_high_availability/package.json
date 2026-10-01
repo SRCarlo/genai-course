@@ -1,0 +1,16 @@
+{
+  "name": "day110-ai-high-availability",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/api/server.js",
+  "scripts": {
+    "dev": "node src/api/server.js",
+    "start": "node src/api/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "groq-sdk": "latest"
+  }
+}
