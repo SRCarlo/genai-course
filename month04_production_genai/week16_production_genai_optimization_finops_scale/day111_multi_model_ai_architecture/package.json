@@ -1,0 +1,16 @@
+{
+  "name": "day111-multi-model-ai-architecture",
+  "version": "1.0.0",
+  "description": "Day 111 - Multi-model and multi-provider AI architecture with Groq.",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/api/server.js",
+    "start": "node src/api/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  }
+}
