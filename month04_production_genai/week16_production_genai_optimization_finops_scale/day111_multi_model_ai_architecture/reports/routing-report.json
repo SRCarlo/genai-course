@@ -1,0 +1,21 @@
+{
+  "period": "test-run",
+  "routes": [
+    {
+      "tier": "fast",
+      "provider": "provider-a",
+      "requests": 0
+    },
+    {
+      "tier": "balanced",
+      "provider": "provider-a",
+      "requests": 0
+    },
+    {
+      "tier": "quality",
+      "provider": "provider-a",
+      "requests": 0
+    }
+  ],
+  "note": "Replace request counts with actual test-run metrics."
+}
