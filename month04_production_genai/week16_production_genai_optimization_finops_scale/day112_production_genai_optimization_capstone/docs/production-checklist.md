@@ -1,0 +1,22 @@
+# Production Checklist
+
+- [x] Authentication layer
+- [x] Input validation
+- [x] Rate limiting
+- [x] Request timeout
+- [x] Retry policy
+- [x] Circuit breaker
+- [x] Fallback
+- [x] Model routing
+- [x] Provider abstraction
+- [x] Caching
+- [x] Token tracking
+- [x] Cost tracking
+- [x] Logging
+- [x] Metrics
+- [x] Request IDs
+- [x] Evaluation
+- [ ] Production secret manager
+- [ ] Distributed cache
+- [ ] Distributed rate limiter
+- [ ] Persistent metrics backend
