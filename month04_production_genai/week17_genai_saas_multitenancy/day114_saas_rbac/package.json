@@ -1,0 +1,21 @@
+{
+  "name": "day114-saas-rbac",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Day 114 multi-tenant GenAI SaaS authentication, authorization and RBAC demo",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch src/api/server.js",
+    "start": "node src/api/server.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0"
+  }
+}
