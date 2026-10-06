@@ -1,0 +1,21 @@
+{
+  "name": "day115-api-keys",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Day 115 - secure API keys, scopes, tenant isolation and Groq AI gateway",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/api/server.js",
+    "start": "node src/api/server.js",
+    "test": "node --test",
+    "create:key": "node scripts/create-api-key.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "groq-sdk": "^1.6.0"
+  }
+}

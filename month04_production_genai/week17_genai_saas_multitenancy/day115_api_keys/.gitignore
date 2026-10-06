@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+.env.production
+*.log
+coverage/
+data/api-keys.json
+.local-api-key
