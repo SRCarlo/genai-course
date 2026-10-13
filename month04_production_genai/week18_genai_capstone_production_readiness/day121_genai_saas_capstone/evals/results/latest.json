@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-10-13T16:39:05.515Z",
+  "mode": "deterministic",
+  "model": "deterministic-fixture",
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "passRate": 1,
+  "results": [
+    {
+      "id": "refund-policy-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": false,
+      "abstentionCorrect": true,
+      "groundednessScore": 1,
+      "answer": "Customers can request a refund within 30 days of purchase.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    },
+    {
+      "id": "shipping-policy-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": false,
+      "abstentionCorrect": true,
+      "groundednessScore": 1,
+      "answer": "Standard shipping takes 3 to 5 business days.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    },
+    {
+      "id": "unsupported-policy-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": true,
+      "abstentionCorrect": true,
+      "groundednessScore": 0,
+      "answer": "The provided information does not specify whether lifetime free repairs are offered.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    },
+    {
+      "id": "returns-condition-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": true,
+      "abstentionCorrect": true,
+      "groundednessScore": 0,
+      "answer": "The provided information does not specify who pays return shipping costs.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    },
+    {
+      "id": "shipping-window-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": false,
+      "abstentionCorrect": true,
+      "groundednessScore": 0.8,
+      "answer": "Yes. The stated standard shipping estimate is 3 to 5 business days.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    }
+  ]
+}
