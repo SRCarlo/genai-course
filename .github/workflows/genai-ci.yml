@@ -1,0 +1,62 @@
+name: GenAI Capstone CI
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: month04_production_genai/week18_genai_capstone_production_readiness/day122_genai_ci_cd_pipeline
+
+jobs:
+  test-and-evaluate:
+    name: Test and evaluate GenAI application
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: month04_production_genai/week18_genai_capstone_production_readiness/day122_genai_ci_cd_pipeline/.nvmrc
+          cache: npm
+          cache-dependency-path: month04_production_genai/week18_genai_capstone_production_readiness/day122_genai_ci_cd_pipeline/package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Run application tests
+        run: npm test --if-present
+
+      - name: Test evaluation framework
+        run: npm run test:eval
+
+      - name: Test chat service integration
+        run: npm run test:integration
+
+      - name: Test tenant isolation
+        run: npm run test:security
+
+      - name: Run evaluation quality gate
+        run: npm run eval
+
+      - name: Upload evaluation report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: genai-evaluation-report
+          path: month04_production_genai/week18_genai_capstone_production_readiness/day122_genai_ci_cd_pipeline/evals/results/latest.json
+          if-no-files-found: warn
+          retention-days: 7

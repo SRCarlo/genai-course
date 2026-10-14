@@ -1,0 +1,43 @@
+[
+  {
+    "id": "refund-policy-001",
+    "question": "How many days do customers have to request a refund?",
+    "context": "Customers may request a refund within 30 days of purchase.",
+    "expectedAnswerContains": [
+      "30 days"
+    ],
+    "shouldAbstain": false
+  },
+  {
+    "id": "shipping-policy-001",
+    "question": "How long does standard shipping take?",
+    "context": "Standard shipping takes 3 to 5 business days.",
+    "expectedAnswerContains": [
+      "3 to 5 business days"
+    ],
+    "shouldAbstain": false
+  },
+  {
+    "id": "unsupported-policy-001",
+    "question": "Does the company offer lifetime free repairs?",
+    "context": "Customers may request a refund within 30 days of purchase.",
+    "expectedAnswerContains": [],
+    "shouldAbstain": true
+  },
+  {
+    "id": "returns-condition-001",
+    "question": "What information is available about return shipping costs?",
+    "context": "Customers may request a refund within 30 days of purchase.",
+    "expectedAnswerContains": [],
+    "shouldAbstain": true
+  },
+  {
+    "id": "shipping-window-001",
+    "question": "Is standard shipping measured in business days?",
+    "context": "Standard shipping takes 3 to 5 business days.",
+    "expectedAnswerContains": [
+      "business days"
+    ],
+    "shouldAbstain": false
+  }
+]

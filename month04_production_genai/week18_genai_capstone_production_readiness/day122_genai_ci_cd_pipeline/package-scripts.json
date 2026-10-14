@@ -1,0 +1,6 @@
+{
+  "scripts_to_merge": {
+    "eval": "node evals/run-evals.js",
+    "test:eval": "node --test evals/evaluator.test.js"
+  }
+}
