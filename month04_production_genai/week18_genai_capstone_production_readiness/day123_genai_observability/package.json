@@ -1,0 +1,44 @@
+{
+  "name": "day123_genai_observability",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-tenant GenAI knowledge assistant capstone using Groq and openai/gpt-oss-20b",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "vitest run tests/chat.service.test.js tests/api.test.js",
+    "test:watch": "vitest",
+    "eval": "node evals/run-evals.js",
+    "test:eval": "node --test evals/evaluator.test.js",
+    "check": "node --check src/server.js && node --check src/app.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test:integration": "node --test tests/chat.service.integration.test.js",
+    "test:security": "node --test tests/retriever.test.js",
+    "test:observability": "node --test tests/observability.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.1",
+    "groq-sdk": "^1.6.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.4.0",
+    "pino": "^10.4.0",
+    "pino-http": "^11.0.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/multer": "^2.3.0",
+    "eslint": "^10.12.0",
+    "globals": "^17.13.0",
+    "prettier": "^3.6.2",
+    "supertest": "^7.1.4",
+    "vitest": "^4.0.8"
+  }
+}
