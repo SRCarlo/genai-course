@@ -49,6 +49,10 @@ jobs:
       - name: Test tenant isolation
         run: npm run test:security
 
+      - name: Run Day 126 alerting tests
+        working-directory: month04_production_genai/week18_genai_capstone_production_readiness/day126_production_alerting_incident_response
+        run: npm ci && npm run test:alerting
+
       - name: Run evaluation quality gate
         run: npm run eval
 

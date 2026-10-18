@@ -1,0 +1,73 @@
+{
+  "timestamp": "2026-10-14T17:34:26.081Z",
+  "mode": "deterministic",
+  "model": "deterministic-fixture",
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "passRate": 1,
+  "minimumPassRate": 0.9,
+  "qualityGatePassed": true,
+  "results": [
+    {
+      "id": "refund-policy-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": false,
+      "abstentionCorrect": true,
+      "groundednessScore": 1,
+      "answer": "Customers can request a refund within 30 days of purchase.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    },
+    {
+      "id": "shipping-policy-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": false,
+      "abstentionCorrect": true,
+      "groundednessScore": 1,
+      "answer": "Standard shipping takes 3 to 5 business days.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    },
+    {
+      "id": "unsupported-policy-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": true,
+      "abstentionCorrect": true,
+      "groundednessScore": 0,
+      "answer": "The provided information is not specified for lifetime free repairs.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    },
+    {
+      "id": "returns-condition-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": true,
+      "abstentionCorrect": true,
+      "groundednessScore": 0,
+      "answer": "The provided information is not specified for return shipping costs.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    },
+    {
+      "id": "shipping-window-001",
+      "passed": true,
+      "expectedTermsPresent": true,
+      "abstained": false,
+      "abstentionCorrect": true,
+      "groundednessScore": 1,
+      "answer": "Standard shipping takes 3 to 5 business days.",
+      "model": "deterministic-fixture",
+      "usage": null,
+      "error": null
+    }
+  ]
+}

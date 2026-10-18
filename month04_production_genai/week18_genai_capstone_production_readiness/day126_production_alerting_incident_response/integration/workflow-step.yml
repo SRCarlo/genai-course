@@ -1,0 +1,4 @@
+# Merge this step into the existing CI test job after dependency installation.
+# Preserve existing steps and use the correct working-directory.
+- name: Test observability middleware
+  run: npm run test:observability
