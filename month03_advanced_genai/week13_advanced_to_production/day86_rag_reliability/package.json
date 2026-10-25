@@ -27,6 +27,6 @@
     "express": "^5.2.1",
     "express-rate-limit": "^8.7.0",
     "groq-sdk": "^1.6.0",
-    "zod": "^4.5.4"
+    "zod": "^4.6.6"
   }
 }
