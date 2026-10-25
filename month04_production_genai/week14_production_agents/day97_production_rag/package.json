@@ -14,7 +14,7 @@
     "dotenv": "^18.0.0",
     "express": "^5.2.1",
     "groq-sdk": "^1.6.0",
-    "zod": "^4.6.5"
+    "zod": "^4.6.6"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
