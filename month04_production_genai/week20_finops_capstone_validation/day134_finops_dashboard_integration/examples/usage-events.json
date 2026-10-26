@@ -1,0 +1,42 @@
+[
+  {
+    "eventId": "evt-001",
+    "tenantId": "tenant-a",
+    "model": "model-fast",
+    "inputTokens": 1200,
+    "outputTokens": 200,
+    "providerCost": 0.006,
+    "status": "succeeded",
+    "cacheStatus": "miss"
+  },
+  {
+    "eventId": "evt-002",
+    "tenantId": "tenant-a",
+    "model": "model-fast",
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "providerCost": 0,
+    "status": "succeeded",
+    "cacheStatus": "hit"
+  },
+  {
+    "eventId": "evt-003",
+    "tenantId": "tenant-a",
+    "model": "model-quality",
+    "inputTokens": 1800,
+    "outputTokens": 300,
+    "providerCost": 0.024,
+    "status": "succeeded",
+    "cacheStatus": "miss"
+  },
+  {
+    "eventId": "evt-004",
+    "tenantId": "tenant-b",
+    "model": "model-quality",
+    "inputTokens": 9000,
+    "outputTokens": 1200,
+    "providerCost": 0.08,
+    "status": "succeeded",
+    "cacheStatus": "miss"
+  }
+]
