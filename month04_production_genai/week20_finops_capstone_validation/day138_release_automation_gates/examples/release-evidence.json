@@ -1,0 +1,19 @@
+﻿{
+  "release": {
+    "version": "1.0.0-rc.2",
+    "environment": "production",
+    "commit": "0123456789abcdef0123456789abcdef01234567"
+  },
+  "checks": {
+    "unitTests": true,
+    "integrationTests": true,
+    "securityScan": true,
+    "aiEvaluation": true,
+    "stagingSmokeTests": true
+  },
+  "canaryDecision": "PROMOTE",
+  "approval": {
+    "approved": true,
+    "approverId": "release-manager-01"
+  }
+}
