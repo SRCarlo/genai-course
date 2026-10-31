@@ -1,0 +1,29 @@
+﻿{
+  "candidate": {
+    "version": "1.0.0-rc.3",
+    "artifactDigest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "audit": {
+    "status": "PASSED",
+    "artifactDigest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "sourceId": "audit-run-001"
+  },
+  "staging": {
+    "status": "PASSED",
+    "artifactDigest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "sourceId": "staging-run-001"
+  },
+  "canary": {
+    "status": "PASSED",
+    "artifactDigest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "sourceId": "canary-run-001",
+    "decision": "PROMOTE",
+    "alreadyDeployed": false
+  },
+  "releasePolicy": {
+    "status": "PASSED",
+    "artifactDigest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "sourceId": "release-policy-run-001",
+    "decision": "APPROVE"
+  }
+}
